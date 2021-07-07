@@ -1,0 +1,39 @@
+[32m2021-06-08 17:44:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
+[32m2021-06-08 17:44:45[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - STEP_START - Started execution of step "create_geojson".
+[32m2021-06-08 17:44:45[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
+/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py:160: DtypeWarning: Columns (0,2,3,4,5,6,7,8,10,14,17,18,19,20,26,27,30,33,34,35,36,37,38) have mixed types.Specify dtype option on import or set low_memory=False.
+  yield _load_input_with_input_manager(loader, load_input_context)
+[32m2021-06-08 17:44:46[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-08 17:44:46[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-06-08 17:44:46[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-08 17:45:04[0m - dagster - [34mDEBUG[0m - camera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - STEP_OUTPUT - Yielded output "camera" of type "Any". (Type check passed).
+[32m2021-06-08 17:45:04[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - bfafc075-f159-4984-b11b-9fa1fce0f58f - 5989 - create_geojson - STEP_FAILURE - Execution of step "create_geojson" failed.
+
+dagster.core.errors.DagsterExecutionHandleOutputError: Error occurred while handling output "camera" of step "create_geojson"::
+
+ValueError: Out of range float values are not JSON compliant: nan
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/mnt/d/IMS/situated-views/bin/solids/utils.py", line 42, in handle_output
+    geojson.dump(feature_collection, f, ensure_ascii=False, indent=4)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/geojson/codec.py", line 26, in dump
+    return json.dump(to_mapping(obj),
+  File "/usr/lib/python3.8/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.8/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.8/json/encoder.py", line 397, in _iterencode_dict
+    yield _floatstr(value)
+  File "/usr/lib/python3.8/json/encoder.py", line 239, in floatstr
+    raise ValueError(
+[0m

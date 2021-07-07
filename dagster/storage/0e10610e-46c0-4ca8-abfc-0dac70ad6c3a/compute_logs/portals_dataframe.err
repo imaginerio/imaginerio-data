@@ -1,0 +1,26 @@
+[32m2021-06-17 13:23:19[0m - dagster - [34mDEBUG[0m - apis_pipeline - 0e10610e-46c0-4ca8-abfc-0dac70ad6c3a - 9511 - portals_dataframe - LOGS_CAPTURED - Started capturing logs for solid: portals_dataframe.
+[32m2021-06-17 13:23:19[0m - dagster - [34mDEBUG[0m - apis_pipeline - 0e10610e-46c0-4ca8-abfc-0dac70ad6c3a - 9511 - portals_dataframe - STEP_START - Started execution of step "portals_dataframe".
+[32m2021-06-17 13:23:19[0m - dagster - [34mDEBUG[0m - apis_pipeline - 0e10610e-46c0-4ca8-abfc-0dac70ad6c3a - 9511 - portals_dataframe - LOADED_INPUT - Loaded input "results" using input manager "io_manager", from output "result" of step "query_portals"
+[32m2021-06-17 13:23:20[0m - dagster - [34mDEBUG[0m - apis_pipeline - 0e10610e-46c0-4ca8-abfc-0dac70ad6c3a - 9511 - portals_dataframe - STEP_INPUT - Got input "results" of type "Any". (Type check passed).
+[32m2021-06-17 13:23:20[0m - dagster - [34mERROR[0m - [31mapis_pipeline - 0e10610e-46c0-4ca8-abfc-0dac70ad6c3a - 9511 - portals_dataframe - STEP_FAILURE - Execution of step "portals_dataframe" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "portals_dataframe"::
+
+KeyError: 'PORTALS_PREFIX'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 126, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 92, in _yield_compute_results
+    user_event_generator = compute_fn(SolidExecutionContext(step_context), inputs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/IMS/situated-views/bin/solids/apis.py", line 212, in portals_dataframe
+    dataframe["portals_url"] = (os.environ["PORTALS_PREFIX"] + dataframe["portals_id"])
+  File "/usr/lib/python3.8/os.py", line 673, in __getitem__
+    raise KeyError(key) from None
+[0m

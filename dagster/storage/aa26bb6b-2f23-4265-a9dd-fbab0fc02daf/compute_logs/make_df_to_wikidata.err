@@ -1,0 +1,23 @@
+[32m2021-06-28 16:36:17[0m - dagster - [34mDEBUG[0m - export_pipeline - aa26bb6b-2f23-4265-a9dd-fbab0fc02daf - 2240 - make_df_to_wikidata - LOGS_CAPTURED - Started capturing logs for solid: make_df_to_wikidata.
+[32m2021-06-28 16:36:17[0m - dagster - [34mDEBUG[0m - export_pipeline - aa26bb6b-2f23-4265-a9dd-fbab0fc02daf - 2240 - make_df_to_wikidata - STEP_START - Started execution of step "make_df_to_wikidata".
+[32m2021-06-28 16:36:18[0m - dagster - [34mDEBUG[0m - export_pipeline - aa26bb6b-2f23-4265-a9dd-fbab0fc02daf - 2240 - make_df_to_wikidata - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "load_metadata"
+[32m2021-06-28 16:36:18[0m - dagster - [34mDEBUG[0m - export_pipeline - aa26bb6b-2f23-4265-a9dd-fbab0fc02daf - 2240 - make_df_to_wikidata - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-28 16:36:18[0m - dagster - [34mERROR[0m - [31mexport_pipeline - aa26bb6b-2f23-4265-a9dd-fbab0fc02daf - 2240 - make_df_to_wikidata - STEP_FAILURE - Execution of step "make_df_to_wikidata" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "make_df_to_wikidata"::
+
+TypeError: descriptor 'isoformat' for 'datetime.datetime' objects doesn't apply to a 'float' object
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/export.py", line 156, in make_df_to_wikidata
+    quickstate.loc[circa, "qal1319"] = df["first_year"].apply(dt.isoformat) + "Z/9"
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/series.py", line 4138, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/_libs/lib.pyx", line 2467, in pandas._libs.lib.map_infer
+[0m

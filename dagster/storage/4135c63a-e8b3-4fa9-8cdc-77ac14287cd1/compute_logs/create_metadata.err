@@ -1,0 +1,36 @@
+[32m2021-06-24 14:19:02[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOGS_CAPTURED - Started capturing logs for solid: create_metadata.
+[32m2021-06-24 14:19:02[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_START - Started execution of step "create_metadata".
+[32m2021-06-24 14:19:09[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOADED_INPUT - Loaded input "camera" using input manager "camera_root"
+[32m2021-06-24 14:19:10[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOADED_INPUT - Loaded input "catalog" using input manager "catalog_root"
+[32m2021-06-24 14:19:10[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOADED_INPUT - Loaded input "images" using input manager "images_root"
+[32m2021-06-24 14:19:11[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOADED_INPUT - Loaded input "omeka" using input manager "omeka_root"
+[32m2021-06-24 14:19:11[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOADED_INPUT - Loaded input "portals" using input manager "portals_root"
+[32m2021-06-24 14:19:11[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - LOADED_INPUT - Loaded input "wikidata" using input manager "wikidata_root"
+[32m2021-06-24 14:19:11[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_INPUT - Got input "camera" of type "Any". (Type check passed).
+[32m2021-06-24 14:19:12[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_INPUT - Got input "catalog" of type "Any". (Type check passed).
+[32m2021-06-24 14:19:12[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_INPUT - Got input "images" of type "Any". (Type check passed).
+[32m2021-06-24 14:19:12[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_INPUT - Got input "omeka" of type "Any". (Type check passed).
+[32m2021-06-24 14:19:12[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_INPUT - Got input "portals" of type "Any". (Type check passed).
+[32m2021-06-24 14:19:13[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_INPUT - Got input "wikidata" of type "Any". (Type check passed).
+[32m2021-06-24 14:19:13[0m - dagster - [34mERROR[0m - [31mmetadata_pipeline - 4135c63a-e8b3-4fa9-8cdc-77ac14287cd1 - 15304 - create_metadata - STEP_FAILURE - Execution of step "create_metadata" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "create_metadata"::
+
+KeyError: "['portals_id', 'portals_url'] not in index"
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "bin/pipelines/metadata_pipeline.py", line 57, in create_metadata
+    metadata_new = metadata[
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/frame.py", line 3030, in __getitem__
+    indexer = self.loc._get_listlike_indexer(key, axis=1, raise_missing=True)[1]
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexing.py", line 1266, in _get_listlike_indexer
+    self._validate_read_indexer(keyarr, indexer, axis, raise_missing=raise_missing)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexing.py", line 1316, in _validate_read_indexer
+    raise KeyError(f"{not_found} not in index")
+[0m

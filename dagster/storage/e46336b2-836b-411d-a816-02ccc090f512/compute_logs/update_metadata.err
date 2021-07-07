@@ -1,0 +1,32 @@
+[32m2021-06-28 19:11:00[0m - dagster - [34mDEBUG[0m - catalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - LOGS_CAPTURED - Started capturing logs for solid: update_metadata.
+[32m2021-06-28 19:11:00[0m - dagster - [34mDEBUG[0m - catalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - STEP_START - Started execution of step "update_metadata".
+[32m2021-06-28 19:11:00[0m - dagster - [34mDEBUG[0m - catalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - LOADED_INPUT - Loaded input "df" using input manager "pandas_csv", from output "catalog" of step "dates_accuracy"
+[32m2021-06-28 19:11:01[0m - dagster - [34mDEBUG[0m - catalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-28 19:11:01[0m - dagster - [34mDEBUG[0m - catalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-28 19:11:01[0m - dagster - [34mDEBUG[0m - catalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-28 19:11:02[0m - dagster - [34mERROR[0m - [31mcatalog_pipeline - e46336b2-836b-411d-a816-02ccc090f512 - 3562 - update_metadata - STEP_FAILURE - Execution of step "update_metadata" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "update_metadata"::
+
+ValueError: Cannot convert non-finite values (NA or inf) to integer
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/utils.py", line 69, in update_metadata
+    metadata[["first_year", "last_year"]] = metadata[
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/generic.py", line 5877, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 631, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/blocks.py", line 673, in astype
+    values = astype_nansafe(vals1d, dtype, copy=True)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/dtypes/cast.py", line 1068, in astype_nansafe
+    raise ValueError("Cannot convert non-finite values (NA or inf) to integer")
+[0m

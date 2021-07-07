@@ -1,0 +1,5 @@
+[32m2021-06-15 11:55:05[0m - dagster - [34mDEBUG[0m - apis_pipeline - 4e3f2265-dc52-4bdb-8c03-b9d02157250e - 1814 - query_wikidata - LOGS_CAPTURED - Started capturing logs for solid: query_wikidata.
+[32m2021-06-15 11:55:06[0m - dagster - [34mDEBUG[0m - apis_pipeline - 4e3f2265-dc52-4bdb-8c03-b9d02157250e - 1814 - query_wikidata - STEP_START - Started execution of step "query_wikidata".
+[32m2021-06-15 11:55:12[0m - dagster - [34mDEBUG[0m - apis_pipeline - 4e3f2265-dc52-4bdb-8c03-b9d02157250e - 1814 - query_wikidata - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-06-15 11:55:12[0m - dagster - [34mDEBUG[0m - apis_pipeline - 4e3f2265-dc52-4bdb-8c03-b9d02157250e - 1814 - query_wikidata - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-06-15 11:55:12[0m - dagster - [34mDEBUG[0m - apis_pipeline - 4e3f2265-dc52-4bdb-8c03-b9d02157250e - 1814 - query_wikidata - STEP_SUCCESS - Finished execution of step "query_wikidata" in 6.43s.

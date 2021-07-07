@@ -1,0 +1,19 @@
+[32m2021-06-17 15:09:57[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 4ed86b8d-3d89-42be-815a-159ffbfd36e8 - 29166 - merge_dfs - LOGS_CAPTURED - Started capturing logs for solid: merge_dfs.
+[32m2021-06-17 15:09:58[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 4ed86b8d-3d89-42be-815a-159ffbfd36e8 - 29166 - merge_dfs - STEP_START - Started execution of step "merge_dfs".
+[32m2021-06-17 15:09:58[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 4ed86b8d-3d89-42be-815a-159ffbfd36e8 - 29166 - merge_dfs - LOADED_INPUT - Loaded input "df" using input manager "pandas_csv", from output "catalog" of step "dates_accuracy"
+[32m2021-06-17 15:09:58[0m - dagster - [34mERROR[0m - [31mcatalog_pipeline - 4ed86b8d-3d89-42be-815a-159ffbfd36e8 - 29166 - merge_dfs - STEP_FAILURE - Execution of step "merge_dfs" failed.
+
+dagster.core.errors.DagsterExecutionLoadInputError: Error occurred while loading input "metadata" of step "merge_dfs"::
+
+TypeError: 'NoneType' object is not subscriptable
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py", line 510, in _load_input_with_input_manager
+    value = input_manager.load_input(context)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/storage/root_input_manager.py", line 159, in load_input
+    return self._load_fn(context)
+  File "/mnt/d/IMS/situated-views/bin/solids/utils.py", line 75, in root_input
+    return pd.read_csv(context.config['path'])
+[0m

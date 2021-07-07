@@ -1,0 +1,8 @@
+[32m2021-07-01 16:19:42[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - LOGS_CAPTURED - Started capturing logs for solid: omeka_dataframe.
+[32m2021-07-01 16:19:42[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - STEP_START - Started execution of step "omeka_dataframe".
+[32m2021-07-01 16:19:42[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - LOADED_INPUT - Loaded input "results" using input manager "io_manager", from output "result" of step "query_omeka"
+[32m2021-07-01 16:19:43[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - STEP_INPUT - Got input "results" of type "Any". (Type check passed).
+[32m2021-07-01 16:19:43[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - STEP_OUTPUT - Yielded output "api_omeka" of type "Any". (Type check passed).
+[32m2021-07-01 16:19:43[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - ASSET_MATERIALIZATION - The API_OMEKA was saved as csv
+[32m2021-07-01 16:19:44[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - HANDLED_OUTPUT - Handled output "api_omeka" using IO manager "pandas_csv"
+[32m2021-07-01 16:19:44[0m - dagster - [34mDEBUG[0m - apis_pipeline - e61ab14e-103d-4573-9dcf-c3cc761dd40e - 5181 - omeka_dataframe - STEP_SUCCESS - Finished execution of step "omeka_dataframe" in 1.54s.

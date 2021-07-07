@@ -1,0 +1,8 @@
+[32m2021-07-06 19:11:27[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-07-06 19:11:27[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-07-06 19:11:28[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-06 19:11:28[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-06 19:11:30[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - STEP_OUTPUT - Yielded output "catalog" of type "Any". (Type check passed).
+[32m2021-07-06 19:11:30[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - ASSET_MATERIALIZATION - THE CATALOG WAS SAVED AS CSV
+[32m2021-07-06 19:11:31[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - HANDLED_OUTPUT - Handled output "catalog" using IO manager "pandas_csv"
+[32m2021-07-06 19:11:31[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 70c73347-73d8-40f8-85ad-54c60906289c - 24241 - dates_accuracy - STEP_SUCCESS - Finished execution of step "dates_accuracy" in 3.12s.

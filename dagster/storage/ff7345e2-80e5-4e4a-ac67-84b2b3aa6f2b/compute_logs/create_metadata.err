@@ -1,0 +1,18 @@
+[32m2021-06-18 19:31:23[0m - dagster - [34mDEBUG[0m - metadata_pipeline - ff7345e2-80e5-4e4a-ac67-84b2b3aa6f2b - 2067 - create_metadata - LOGS_CAPTURED - Started capturing logs for solid: create_metadata.
+[32m2021-06-18 19:31:23[0m - dagster - [34mDEBUG[0m - metadata_pipeline - ff7345e2-80e5-4e4a-ac67-84b2b3aa6f2b - 2067 - create_metadata - STEP_START - Started execution of step "create_metadata".
+[32m2021-06-18 19:31:24[0m - dagster - [34mERROR[0m - [31mmetadata_pipeline - ff7345e2-80e5-4e4a-ac67-84b2b3aa6f2b - 2067 - create_metadata - STEP_FAILURE - Execution of step "create_metadata" failed.
+
+dagster.core.errors.DagsterExecutionLoadInputError: Error occurred while loading input "camera" of step "create_metadata"::
+
+TypeError: 'NoneType' object is not subscriptable
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py", line 510, in _load_input_with_input_manager
+    value = input_manager.load_input(context)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/storage/root_input_manager.py", line 159, in load_input
+    return self._load_fn(context)
+  File "/mnt/d/IMS/situated-views/bin/solids/utils.py", line 90, in root_input_geojson
+    return gpd.read_file(context.config['path'])
+[0m

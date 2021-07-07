@@ -1,0 +1,19 @@
+[32m2021-07-06 15:41:08[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - omeka_dataframe - LOGS_CAPTURED - Started capturing logs for solid: omeka_dataframe.
+[32m2021-07-06 15:41:09[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - omeka_dataframe - STEP_START - Started execution of step "omeka_dataframe".
+[32m2021-07-06 15:41:09[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - omeka_dataframe - LOADED_INPUT - Loaded input "results" using input manager "io_manager", from output "result" of step "query_omeka"
+[32m2021-07-06 15:41:09[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - omeka_dataframe - STEP_INPUT - Got input "results" of type "Any". (Type check passed).
+[32m2021-07-06 15:41:10[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - omeka_dataframe - STEP_OUTPUT - Yielded output "api_omeka" of type "Any". (Type check passed).
+[32m2021-07-06 15:41:10[0m - dagster - [34mERROR[0m - [31mapis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - omeka_dataframe - STEP_FAILURE - Execution of step "omeka_dataframe" failed.
+
+dagster.core.errors.DagsterExecutionHandleOutputError: Error occurred while handling output "api_omeka" of step "omeka_dataframe"::
+
+AttributeError: module 'dagster' has no attribute 'calculate_bytes'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/mnt/e/situated-views/solids/utils.py", line 37, in handle_output
+    # metadata={"size (bytes)": dg.calculate_bytes(obj)},
+[0m

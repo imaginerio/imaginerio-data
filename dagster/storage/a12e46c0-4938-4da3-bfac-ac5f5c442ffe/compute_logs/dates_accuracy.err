@@ -1,0 +1,7 @@
+[32m2021-06-08 11:19:54[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-06-08 11:19:54[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-06-08 11:19:55[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "organize_columns"
+[32m2021-06-08 11:19:55[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-08 11:19:57[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-06-08 11:19:57[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-06-08 11:19:58[0m - dagster - [34mDEBUG[0m - calatog_main - a12e46c0-4938-4da3-bfac-ac5f5c442ffe - 3723 - dates_accuracy - STEP_SUCCESS - Finished execution of step "dates_accuracy" in 2.35s.

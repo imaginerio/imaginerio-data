@@ -1,0 +1,7 @@
+[32m2021-06-25 15:36:04[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - LOGS_CAPTURED - Started capturing logs for solid: load_metadata.
+[32m2021-06-25 15:36:04[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - STEP_START - Started execution of step "load_metadata".
+[32m2021-06-25 15:36:04[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-25 15:36:05[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-25 15:36:05[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-06-25 15:36:05[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-06-25 15:36:06[0m - dagster - [34mDEBUG[0m - export_pipeline - 5a894c84-8510-4cb1-8008-82a1d94afac8 - 12026 - load_metadata - STEP_SUCCESS - Finished execution of step "load_metadata" in 572ms.

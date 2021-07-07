@@ -1,0 +1,3 @@
+[32m2021-06-08 12:25:06[0m - dagster - [34mDEBUG[0m - calatog_main - db413d7a-2269-46ae-9401-4c6ea5de0708 - 4318 - extract_dimensions - LOGS_CAPTURED - Started capturing logs for solid: extract_dimensions.
+[32m2021-06-08 12:25:06[0m - dagster - [34mDEBUG[0m - calatog_main - db413d7a-2269-46ae-9401-4c6ea5de0708 - 4318 - extract_dimensions - STEP_START - Started execution of step "extract_dimensions".
+[32m2021-06-08 12:25:06[0m - dagster - [34mDEBUG[0m - calatog_main - db413d7a-2269-46ae-9401-4c6ea5de0708 - 4318 - extract_dimensions - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "dates_accuracy"

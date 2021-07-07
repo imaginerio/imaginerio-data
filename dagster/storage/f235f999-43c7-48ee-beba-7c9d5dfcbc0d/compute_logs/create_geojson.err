@@ -1,0 +1,46 @@
+[32m2021-06-09 08:55:12[0m - dagster - [34mDEBUG[0m - camera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
+[32m2021-06-09 08:55:12[0m - dagster - [34mDEBUG[0m - camera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - STEP_START - Started execution of step "create_geojson".
+[32m2021-06-09 08:55:12[0m - dagster - [34mDEBUG[0m - camera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
+/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py:160: DtypeWarning: Columns (0,2,3,4,5,6,7,8,10,14,17,18,19,20,26,27,30,33,34,35,36,37,38) have mixed types.Specify dtype option on import or set low_memory=False.
+  yield _load_input_with_input_manager(loader, load_input_context)
+[32m2021-06-09 08:55:14[0m - dagster - [34mDEBUG[0m - camera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-09 08:55:14[0m - dagster - [34mDEBUG[0m - camera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-06-09 08:55:14[0m - dagster - [34mDEBUG[0m - camera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-09 09:15:59[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - f235f999-43c7-48ee-beba-7c9d5dfcbc0d - 6577 - create_geojson - STEP_FAILURE - Execution of step "create_geojson" failed.
+
+dagster.core.errors.DagsterExecutionInterruptedError
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_plan.py", line 193, in _dagster_event_sequence_for_step
+    for step_event in check.generator(step_events):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 305, in core_dagster_event_sequence_for_step
+    for user_event in check.generator(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 64, in _step_output_error_checked_user_event_sequence
+    for user_event in user_event_sequence:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 599, in _user_event_sequence_for_step_compute_fn
+    for event in iterate_with_context(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 126, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 92, in _yield_compute_results
+    user_event_generator = compute_fn(SolidExecutionContext(step_context), inputs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/IMS/situated-views/bin/solids/camera.py", line 260, in create_geojson
+    viewcone = draw_cone(kml)
+  File "/mnt/d/IMS/situated-views/bin/solids/camera.py", line 133, in draw_cone
+    segment_vertices.append((reproject(polar_point(center, start_angle + z * step_angle_width,radius), inverse = True)))
+  File "/mnt/d/IMS/situated-views/bin/solids/camera.py", line 27, in reproject
+    rj = Proj('EPSG:32722')
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pyproj/proj.py", line 131, in __init__
+    projstring = self.crs.to_proj4() or self.crs.srs
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pyproj/crs/crs.py", line 1216, in to_proj4
+    return self._crs.to_proj4(version=version)
+  File "pyproj/_crs.pyx", line 2641, in pyproj._crs._CRS.to_proj4
+  File "pyproj/_crs.pyx", line 164, in pyproj._crs._to_proj4
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pyproj/exceptions.py", line 19, in clear
+    @staticmethod
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/interrupts.py", line 78, in _new_signal_handler
+    raise error_cls()
+[0m

@@ -1,0 +1,34 @@
+[32m2021-06-04 17:29:45[0m - dagster - [34mDEBUG[0m - camera_pipeline - 49e4adae-710a-4dae-b414-9fa87c037896 - 7692 - correct_altitude_mode - LOGS_CAPTURED - Started capturing logs for solid: correct_altitude_mode.
+[32m2021-06-04 17:29:46[0m - dagster - [34mDEBUG[0m - camera_pipeline - 49e4adae-710a-4dae-b414-9fa87c037896 - 7692 - correct_altitude_mode - STEP_START - Started execution of step "correct_altitude_mode".
+[32m2021-06-04 17:29:46[0m - dagster - [34mDEBUG[0m - camera_pipeline - 49e4adae-710a-4dae-b414-9fa87c037896 - 7692 - correct_altitude_mode - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "change_img_href"
+[32m2021-06-04 17:29:47[0m - dagster - [34mDEBUG[0m - camera_pipeline - 49e4adae-710a-4dae-b414-9fa87c037896 - 7692 - correct_altitude_mode - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-06-04 17:29:48[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - 49e4adae-710a-4dae-b414-9fa87c037896 - 7692 - correct_altitude_mode - STEP_FAILURE - Execution of step "correct_altitude_mode" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "correct_altitude_mode"::
+
+re.error: look-behind requires fixed-width pattern
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 126, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 92, in _yield_compute_results
+    user_event_generator = compute_fn(SolidExecutionContext(step_context), inputs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/IMS/situated-views/bin/solids/camera.py", line 181, in correct_altitude_mode
+    if re.search("(?<=<(gx:)?altitudeMode>)relative(.+)?(?=<\/(gx:)?altitudeMode>)", txt):
+  File "/usr/lib/python3.8/re.py", line 199, in search
+    return _compile(pattern, flags).search(string)
+  File "/usr/lib/python3.8/re.py", line 302, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.8/sre_compile.py", line 768, in compile
+    code = _code(p, flags)
+  File "/usr/lib/python3.8/sre_compile.py", line 607, in _code
+    _compile(code, p.data, flags)
+  File "/usr/lib/python3.8/sre_compile.py", line 182, in _compile
+    raise error("look-behind requires fixed-width pattern")
+[0m

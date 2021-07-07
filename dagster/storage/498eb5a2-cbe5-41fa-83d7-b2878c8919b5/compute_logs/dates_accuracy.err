@@ -1,0 +1,31 @@
+[32m2021-06-28 18:13:40[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 498eb5a2-cbe5-41fa-83d7-b2878c8919b5 - 2986 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-06-28 18:13:41[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 498eb5a2-cbe5-41fa-83d7-b2878c8919b5 - 2986 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-06-28 18:13:41[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 498eb5a2-cbe5-41fa-83d7-b2878c8919b5 - 2986 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-06-28 18:13:41[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 498eb5a2-cbe5-41fa-83d7-b2878c8919b5 - 2986 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-28 18:13:41[0m - dagster - [34mERROR[0m - [31mcatalog_pipeline - 498eb5a2-cbe5-41fa-83d7-b2878c8919b5 - 2986 - dates_accuracy - STEP_FAILURE - Execution of step "dates_accuracy" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "dates_accuracy"::
+
+ValueError: cannot convert float NaN to integer
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/catalog.py", line 155, in dates_accuracy
+    df[["first_year", "last_year"]] = df[["first_year", "last_year"]].astype("int64")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/generic.py", line 5877, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 631, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/blocks.py", line 673, in astype
+    values = astype_nansafe(vals1d, dtype, copy=True)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/dtypes/cast.py", line 1074, in astype_nansafe
+    return lib.astype_intsafe(arr.ravel(), dtype).reshape(arr.shape)
+  File "pandas/_libs/lib.pyx", line 619, in pandas._libs.lib.astype_intsafe
+[0m

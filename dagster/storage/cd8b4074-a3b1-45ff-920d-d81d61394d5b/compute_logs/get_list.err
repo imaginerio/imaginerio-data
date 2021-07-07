@@ -1,0 +1,5 @@
+[32m2021-06-07 16:08:50[0m - dagster - [34mDEBUG[0m - camera_pipeline - cd8b4074-a3b1-45ff-920d-d81d61394d5b - 1880 - get_list - LOGS_CAPTURED - Started capturing logs for solid: get_list.
+[32m2021-06-07 16:08:50[0m - dagster - [34mDEBUG[0m - camera_pipeline - cd8b4074-a3b1-45ff-920d-d81d61394d5b - 1880 - get_list - STEP_START - Started execution of step "get_list".
+[32m2021-06-07 16:08:51[0m - dagster - [34mDEBUG[0m - camera_pipeline - cd8b4074-a3b1-45ff-920d-d81d61394d5b - 1880 - get_list - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-06-07 16:08:51[0m - dagster - [34mDEBUG[0m - camera_pipeline - cd8b4074-a3b1-45ff-920d-d81d61394d5b - 1880 - get_list - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-06-07 16:08:51[0m - dagster - [34mDEBUG[0m - camera_pipeline - cd8b4074-a3b1-45ff-920d-d81d61394d5b - 1880 - get_list - STEP_SUCCESS - Finished execution of step "get_list" in 649ms.

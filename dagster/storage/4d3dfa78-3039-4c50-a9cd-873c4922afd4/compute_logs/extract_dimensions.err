@@ -1,0 +1,27 @@
+[32m2021-06-08 11:00:51[0m - dagster - [34mDEBUG[0m - calatog_main - 4d3dfa78-3039-4c50-a9cd-873c4922afd4 - 3549 - extract_dimensions - LOGS_CAPTURED - Started capturing logs for solid: extract_dimensions.
+[32m2021-06-08 11:00:52[0m - dagster - [34mDEBUG[0m - calatog_main - 4d3dfa78-3039-4c50-a9cd-873c4922afd4 - 3549 - extract_dimensions - STEP_START - Started execution of step "extract_dimensions".
+[32m2021-06-08 11:00:52[0m - dagster - [34mDEBUG[0m - calatog_main - 4d3dfa78-3039-4c50-a9cd-873c4922afd4 - 3549 - extract_dimensions - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "dates_accuracy"
+[32m2021-06-08 11:00:53[0m - dagster - [34mERROR[0m - [31mcalatog_main - 4d3dfa78-3039-4c50-a9cd-873c4922afd4 - 3549 - extract_dimensions - STEP_FAILURE - Execution of step "extract_dimensions" failed.
+
+dagster.core.errors.DagsterExecutionInterruptedError
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_plan.py", line 193, in _dagster_event_sequence_for_step
+    for step_event in check.generator(step_events):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 292, in core_dagster_event_sequence_for_step
+    for evt in check.generator(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 179, in _type_checked_event_sequence_for_input
+    with user_code_error_boundary(
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/errors.py", line 182, in user_code_error_boundary
+    with raise_execution_interrupts():
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/errors.py", line 152, in raise_execution_interrupts
+    with raise_interrupts_as(DagsterExecutionInterruptedError):
+  File "/usr/lib/python3.8/contextlib.py", line 113, in __enter__
+    return next(self.gen)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/interrupts.py", line 73, in raise_interrupts_as
+    raise error_cls()
+[0m

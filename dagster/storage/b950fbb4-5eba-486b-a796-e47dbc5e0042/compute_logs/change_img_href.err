@@ -1,0 +1,7 @@
+[32m2021-06-07 11:35:16[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - LOGS_CAPTURED - Started capturing logs for solid: change_img_href.
+[32m2021-06-07 11:35:17[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - STEP_START - Started execution of step "change_img_href".
+[32m2021-06-07 11:35:17[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "split_photooverlays"
+[32m2021-06-07 11:35:17[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-06-07 11:35:18[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-06-07 11:35:18[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-06-07 11:35:19[0m - dagster - [34mDEBUG[0m - camera_pipeline - b950fbb4-5eba-486b-a796-e47dbc5e0042 - 717 - change_img_href - STEP_SUCCESS - Finished execution of step "change_img_href" in 1.24s.

@@ -1,0 +1,26 @@
+[32m2021-06-08 11:56:54[0m - dagster - [34mDEBUG[0m - calatog_main - 2ca044d5-9dbf-45a7-9aae-2b190dc9504f - 3977 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-06-08 11:56:54[0m - dagster - [34mDEBUG[0m - calatog_main - 2ca044d5-9dbf-45a7-9aae-2b190dc9504f - 3977 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-06-08 11:56:54[0m - dagster - [34mDEBUG[0m - calatog_main - 2ca044d5-9dbf-45a7-9aae-2b190dc9504f - 3977 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "organize_columns"
+[32m2021-06-08 11:56:55[0m - dagster - [34mDEBUG[0m - calatog_main - 2ca044d5-9dbf-45a7-9aae-2b190dc9504f - 3977 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-08 11:56:57[0m - dagster - [34mERROR[0m - [31mcalatog_main - 2ca044d5-9dbf-45a7-9aae-2b190dc9504f - 3977 - dates_accuracy - STEP_FAILURE - Execution of step "dates_accuracy" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "dates_accuracy"::
+
+AttributeError: module 'pandas' has no attribute 'NaN'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 126, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 92, in _yield_compute_results
+    user_event_generator = compute_fn(SolidExecutionContext(step_context), inputs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/IMS/situated-views/bin/solids/catalog.py", line 138, in dates_accuracy
+    df.replace({pd.NaT: pd.NaN})
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pandas/__init__.py", line 244, in __getattr__
+    raise AttributeError(f"module 'pandas' has no attribute '{name}'")
+[0m

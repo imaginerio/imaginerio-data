@@ -1,0 +1,26 @@
+[32m2021-07-06 15:41:03[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - query_portals - LOGS_CAPTURED - Started capturing logs for solid: query_portals.
+[32m2021-07-06 15:41:03[0m - dagster - [34mDEBUG[0m - apis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - query_portals - STEP_START - Started execution of step "query_portals".
+[32m2021-07-06 15:41:04[0m - dagster - [34mERROR[0m - [31mapis_pipeline - 076d3341-e460-4988-86bc-1ffa0f3601b1 - 23173 - query_portals - STEP_FAILURE - Execution of step "query_portals" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "query_portals"::
+
+requests.exceptions.SSLError: HTTPSConnectionPool(host='acervos.ims.com.br', port=443): Max retries exceeded with url: /CIP/metadata/search/portals-general-access/situatedviews?table=AssetRecords&quicksearchstring=jpg&maxreturned=55000&startindex=0 (Caused by SSLError(SSLError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:852)'),))
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views/solids/apis.py", line 192, in query_portals
+    response = http.post(endpoint, params=params)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/requests/sessions.py", line 590, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+[0m

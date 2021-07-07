@@ -1,0 +1,4 @@
+[32m2021-06-04 18:46:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - c8cfd7f9-9cb0-42e2-a811-3dc4e845cf78 - 8134 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
+[32m2021-06-04 18:46:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - c8cfd7f9-9cb0-42e2-a811-3dc4e845cf78 - 8134 - create_geojson - STEP_START - Started execution of step "create_geojson".
+[32m2021-06-04 18:46:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - c8cfd7f9-9cb0-42e2-a811-3dc4e845cf78 - 8134 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
+[32m2021-06-04 18:46:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - c8cfd7f9-9cb0-42e2-a811-3dc4e845cf78 - 8134 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).

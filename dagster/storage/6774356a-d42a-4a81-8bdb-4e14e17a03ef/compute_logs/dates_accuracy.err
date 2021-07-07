@@ -1,0 +1,35 @@
+[32m2021-06-28 18:02:47[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 6774356a-d42a-4a81-8bdb-4e14e17a03ef - 2868 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-06-28 18:02:47[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 6774356a-d42a-4a81-8bdb-4e14e17a03ef - 2868 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-06-28 18:02:48[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 6774356a-d42a-4a81-8bdb-4e14e17a03ef - 2868 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-06-28 18:02:48[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 6774356a-d42a-4a81-8bdb-4e14e17a03ef - 2868 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-28 18:02:50[0m - dagster - [34mERROR[0m - [31mcatalog_pipeline - 6774356a-d42a-4a81-8bdb-4e14e17a03ef - 2868 - dates_accuracy - STEP_FAILURE - Execution of step "dates_accuracy" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "dates_accuracy"::
+
+KeyError: 'first_year'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/catalog.py", line 183, in dates_accuracy
+    print("TYPE:", type(df["first_year"].dtypes))
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+
+The above exception was the direct cause of the following exception:
+KeyError: 'first_year'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+[0m

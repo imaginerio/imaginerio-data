@@ -1,0 +1,28 @@
+[32m2021-06-18 18:35:50[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 327c770f-c89f-4cb1-9cb8-e791961eac36 - 1487 - create_metadata - LOGS_CAPTURED - Started capturing logs for solid: create_metadata.
+[32m2021-06-18 18:35:50[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 327c770f-c89f-4cb1-9cb8-e791961eac36 - 1487 - create_metadata - STEP_START - Started execution of step "create_metadata".
+[32m2021-06-18 18:35:50[0m - dagster - [34mERROR[0m - [31mmetadata_pipeline - 327c770f-c89f-4cb1-9cb8-e791961eac36 - 1487 - create_metadata - STEP_FAILURE - Execution of step "create_metadata" failed.
+
+dagster.core.errors.DagsterExecutionLoadInputError: Error occurred while loading input "camera" of step "create_metadata"::
+
+fiona.errors.DriverError: data-out/camera.csv: No such file or directory
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py", line 510, in _load_input_with_input_manager
+    value = input_manager.load_input(context)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/storage/root_input_manager.py", line 159, in load_input
+    return self._load_fn(context)
+  File "/mnt/d/IMS/situated-views/bin/solids/utils.py", line 90, in root_input_geojson
+    return gpd.read_file(context.config['path'])
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/geopandas/io/file.py", line 160, in _read_file
+    with reader(path_or_bytes, **kwargs) as features:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/fiona/env.py", line 408, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/fiona/__init__.py", line 256, in open
+    c = Collection(path, mode, driver=driver, encoding=encoding,
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/fiona/collection.py", line 162, in __init__
+    self.session.start(self, **kwargs)
+  File "fiona/ogrext.pyx", line 540, in fiona.ogrext.Session.start
+  File "fiona/_shim.pyx", line 90, in fiona._shim.gdal_open_vector
+[0m

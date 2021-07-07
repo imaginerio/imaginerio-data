@@ -1,0 +1,28 @@
+[32m2021-06-08 17:27:42[0m - dagster - [34mDEBUG[0m - camera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
+[32m2021-06-08 17:27:43[0m - dagster - [34mDEBUG[0m - camera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - STEP_START - Started execution of step "create_geojson".
+[32m2021-06-08 17:27:43[0m - dagster - [34mDEBUG[0m - camera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
+/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py:160: DtypeWarning: Columns (0,2,3,4,5,6,7,8,10,14,17,18,19,20,26,27,30,33,34,35,36,37,38) have mixed types.Specify dtype option on import or set low_memory=False.
+  yield _load_input_with_input_manager(loader, load_input_context)
+[32m2021-06-08 17:27:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-08 17:27:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-06-08 17:27:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-08 17:27:45[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - 96e6906e-81af-4b8f-ab90-725850d4dcdf - 5829 - create_geojson - STEP_FAILURE - Execution of step "create_geojson" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "create_geojson"::
+
+AttributeError: 'float' object has no attribute 'notna'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 126, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 92, in _yield_compute_results
+    user_event_generator = compute_fn(SolidExecutionContext(step_context), inputs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/IMS/situated-views/bin/solids/camera.py", line 225, in create_geojson
+    accurate = created.notna()
+[0m

@@ -1,0 +1,5 @@
+[32m2021-06-25 16:10:07[0m - dagster - [34mDEBUG[0m - apis_pipeline - 8292a6f7-20af-4e63-a93b-9ded955f28d3 - 12341 - query_omeka - LOGS_CAPTURED - Started capturing logs for solid: query_omeka.
+[32m2021-06-25 16:10:07[0m - dagster - [34mDEBUG[0m - apis_pipeline - 8292a6f7-20af-4e63-a93b-9ded955f28d3 - 12341 - query_omeka - STEP_START - Started execution of step "query_omeka".
+[32m2021-06-25 16:10:42[0m - dagster - [34mDEBUG[0m - apis_pipeline - 8292a6f7-20af-4e63-a93b-9ded955f28d3 - 12341 - query_omeka - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-06-25 16:10:43[0m - dagster - [34mDEBUG[0m - apis_pipeline - 8292a6f7-20af-4e63-a93b-9ded955f28d3 - 12341 - query_omeka - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-06-25 16:10:43[0m - dagster - [34mDEBUG[0m - apis_pipeline - 8292a6f7-20af-4e63-a93b-9ded955f28d3 - 12341 - query_omeka - STEP_SUCCESS - Finished execution of step "query_omeka" in 35.89s.

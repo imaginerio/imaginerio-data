@@ -1,0 +1,35 @@
+[32m2021-06-25 14:14:28[0m - dagster - [34mDEBUG[0m - export_pipeline - 399ffb1b-32a8-42cb-a4f0-34f0b09ae714 - 587 - organize_columns_to_omeka - LOGS_CAPTURED - Started capturing logs for solid: organize_columns_to_omeka.
+[32m2021-06-25 14:14:28[0m - dagster - [34mDEBUG[0m - export_pipeline - 399ffb1b-32a8-42cb-a4f0-34f0b09ae714 - 587 - organize_columns_to_omeka - STEP_START - Started execution of step "organize_columns_to_omeka".
+[32m2021-06-25 14:14:28[0m - dagster - [34mDEBUG[0m - export_pipeline - 399ffb1b-32a8-42cb-a4f0-34f0b09ae714 - 587 - organize_columns_to_omeka - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "load_metadata"
+[32m2021-06-25 14:14:29[0m - dagster - [34mDEBUG[0m - export_pipeline - 399ffb1b-32a8-42cb-a4f0-34f0b09ae714 - 587 - organize_columns_to_omeka - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-25 14:14:29[0m - dagster - [34mERROR[0m - [31mexport_pipeline - 399ffb1b-32a8-42cb-a4f0-34f0b09ae714 - 587 - organize_columns_to_omeka - STEP_FAILURE - Execution of step "organize_columns_to_omeka" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "organize_columns_to_omeka"::
+
+KeyError: 'date_circa'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/export.py", line 61, in organize_columns_to_omeka
+    omeka_df["dcterms:available"] = df["date_circa"]
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+
+The above exception was the direct cause of the following exception:
+KeyError: 'date_circa'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+[0m

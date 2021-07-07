@@ -1,0 +1,28 @@
+[32m2021-06-15 12:07:53[0m - dagster - [34mDEBUG[0m - export_pipeline - 5430cf2c-9306-4590-b370-59ac55b5cb5d - 3396 - load_metadata - LOGS_CAPTURED - Started capturing logs for solid: load_metadata.
+[32m2021-06-15 12:07:53[0m - dagster - [34mDEBUG[0m - export_pipeline - 5430cf2c-9306-4590-b370-59ac55b5cb5d - 3396 - load_metadata - STEP_START - Started execution of step "load_metadata".
+/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/inputs.py:160: DtypeWarning: Columns (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,27,28) have mixed types.Specify dtype option on import or set low_memory=False.
+  yield _load_input_with_input_manager(loader, load_input_context)
+[32m2021-06-15 12:07:55[0m - dagster - [34mDEBUG[0m - export_pipeline - 5430cf2c-9306-4590-b370-59ac55b5cb5d - 3396 - load_metadata - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-15 12:07:55[0m - dagster - [34mDEBUG[0m - export_pipeline - 5430cf2c-9306-4590-b370-59ac55b5cb5d - 3396 - load_metadata - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-15 12:07:57[0m - dagster - [34mERROR[0m - [31mexport_pipeline - 5430cf2c-9306-4590-b370-59ac55b5cb5d - 3396 - load_metadata - STEP_FAILURE - Execution of step "load_metadata" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "load_metadata"::
+
+KeyError: ['geometry']
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 126, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 92, in _yield_compute_results
+    user_event_generator = compute_fn(SolidExecutionContext(step_context), inputs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/IMS/situated-views/bin/solids/export.py", line 36, in load_metadata
+    export_df = export_df.copy().dropna(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pandas/core/frame.py", line 5162, in dropna
+    raise KeyError(list(np.compress(check, subset)))
+[0m

@@ -1,0 +1,36 @@
+[32m2021-06-24 15:21:00[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOGS_CAPTURED - Started capturing logs for solid: create_metadata.
+[32m2021-06-24 15:21:00[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_START - Started execution of step "create_metadata".
+[32m2021-06-24 15:21:05[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOADED_INPUT - Loaded input "camera" using input manager "camera_root"
+[32m2021-06-24 15:21:06[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOADED_INPUT - Loaded input "catalog" using input manager "catalog_root"
+[32m2021-06-24 15:21:06[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOADED_INPUT - Loaded input "images" using input manager "images_root"
+[32m2021-06-24 15:21:06[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOADED_INPUT - Loaded input "omeka" using input manager "omeka_root"
+[32m2021-06-24 15:21:07[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOADED_INPUT - Loaded input "portals" using input manager "portals_root"
+[32m2021-06-24 15:21:07[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - LOADED_INPUT - Loaded input "wikidata" using input manager "wikidata_root"
+[32m2021-06-24 15:21:07[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_INPUT - Got input "camera" of type "Any". (Type check passed).
+[32m2021-06-24 15:21:08[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_INPUT - Got input "catalog" of type "Any". (Type check passed).
+[32m2021-06-24 15:21:08[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_INPUT - Got input "images" of type "Any". (Type check passed).
+[32m2021-06-24 15:21:08[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_INPUT - Got input "omeka" of type "Any". (Type check passed).
+[32m2021-06-24 15:21:08[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_INPUT - Got input "portals" of type "Any". (Type check passed).
+[32m2021-06-24 15:21:09[0m - dagster - [34mDEBUG[0m - metadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_INPUT - Got input "wikidata" of type "Any". (Type check passed).
+[32m2021-06-24 15:21:09[0m - dagster - [34mERROR[0m - [31mmetadata_pipeline - 3a9aad74-b9b3-4c0a-8ac3-9cc38e19155c - 15993 - create_metadata - STEP_FAILURE - Execution of step "create_metadata" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "create_metadata"::
+
+ValueError: Can only compare identically-labeled Series objects
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "bin/pipelines/metadata_pipeline.py", line 92, in create_metadata
+    isin_catalog = catalog["id"] == metadata["id"]
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/ops/common.py", line 65, in new_method
+    return method(self, other)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/arraylike.py", line 29, in __eq__
+    return self._cmp_method(other, operator.eq)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/series.py", line 4973, in _cmp_method
+    raise ValueError("Can only compare identically-labeled Series objects")
+[0m

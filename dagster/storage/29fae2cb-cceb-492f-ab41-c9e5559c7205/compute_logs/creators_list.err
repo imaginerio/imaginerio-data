@@ -1,0 +1,30 @@
+[32m2021-06-28 14:40:51[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 29fae2cb-cceb-492f-ab41-c9e5559c7205 - 1511 - creators_list - LOGS_CAPTURED - Started capturing logs for solid: creators_list.
+[32m2021-06-28 14:40:51[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 29fae2cb-cceb-492f-ab41-c9e5559c7205 - 1511 - creators_list - STEP_START - Started execution of step "creators_list".
+[32m2021-06-28 14:40:51[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 29fae2cb-cceb-492f-ab41-c9e5559c7205 - 1511 - creators_list - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-06-28 14:40:52[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 29fae2cb-cceb-492f-ab41-c9e5559c7205 - 1511 - creators_list - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-06-28 14:40:52[0m - dagster - [34mERROR[0m - [31mcatalog_pipeline - 29fae2cb-cceb-492f-ab41-c9e5559c7205 - 1511 - creators_list - STEP_FAILURE - Execution of step "creators_list" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "creators_list"::
+
+TypeError: Index(...) must be called with a collection of some kind, 'creator' was passed
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/catalog.py", line 117, in creators_list
+    listed_creators = pd.DataFrame(creators_df, columns="creator")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/frame.py", line 558, in __init__
+    mgr = init_ndarray(data, index, columns, dtype=dtype, copy=copy)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 206, in init_ndarray
+    index, columns = _get_axes(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/construction.py", line 466, in _get_axes
+    columns = ensure_index(columns)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 5917, in ensure_index
+    return Index(index_like)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 372, in __new__
+    raise cls._scalar_data_error(data)
+[0m

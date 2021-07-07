@@ -1,0 +1,30 @@
+[32m2021-06-28 11:14:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
+[32m2021-06-28 11:14:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - STEP_START - Started execution of step "create_geojson".
+[32m2021-06-28 11:14:06[0m - dagster - [34mDEBUG[0m - camera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
+[32m2021-06-28 11:14:06[0m - dagster - [34mDEBUG[0m - camera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-06-28 11:14:06[0m - dagster - [34mDEBUG[0m - camera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-06-28 11:14:07[0m - dagster - [34mDEBUG[0m - camera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-06-28 11:14:13[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - 806ec3ad-cc7d-4503-9eed-52c1ebe023e0 - 681 - create_geojson - STEP_FAILURE - Execution of step "create_geojson" failed.
+
+dagster.core.errors.DagsterExecutionInterruptedError
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/execute_plan.py", line 193, in _dagster_event_sequence_for_step
+    for step_event in check.generator(step_events):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 308, in core_dagster_event_sequence_for_step
+    for user_event in check.generator(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/execute_step.py", line 63, in _step_output_error_checked_user_event_sequence
+    for user_event in user_event_sequence:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 138, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/execution/plan/compute.py", line 111, in _yield_compute_results
+    for event in iterate_with_context(
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/d/ims/situated-views/bin/solids/camera.py", line 329, in create_geojson
+    print(f"ERROR: {E} no ID: {Id}")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/utils/interrupts.py", line 78, in _new_signal_handler
+    raise error_cls()
+[0m
