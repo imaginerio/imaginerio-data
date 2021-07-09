@@ -1,0 +1,8 @@
+[32m2021-07-08 15:32:06[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-07-08 15:32:06[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-07-08 15:32:07[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-08 15:32:07[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-08 15:32:09[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - STEP_OUTPUT - Yielded output "catalog" of type "Any". (Type check passed).
+[32m2021-07-08 15:32:10[0m - dagster - [34mINFO[0m - system - a74e85ec-67f3-409b-925d-081d1eb0581c - dates_accuracy - The CUMULUS there's nothing to update
+[32m2021-07-08 15:32:11[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - HANDLED_OUTPUT - Handled output "catalog" using IO manager "pandas_csv"
+[32m2021-07-08 15:32:11[0m - dagster - [34mDEBUG[0m - catalog_pipeline - a74e85ec-67f3-409b-925d-081d1eb0581c - 16452 - dates_accuracy - STEP_SUCCESS - Finished execution of step "dates_accuracy" in 4.24s.

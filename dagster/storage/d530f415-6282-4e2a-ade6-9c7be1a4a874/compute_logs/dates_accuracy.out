@@ -1,5 +1,5 @@
 TYPE OF FIRST(before strftime): <class 'numpy.dtype'>
-CATALOG: 1905 <class 'str'>
+CUMULUS: 1905 <class 'str'>
                                               title  ... date_circa
 id                                                   ...           
 001AAN005121                 Vista do Pão de Açúcar  ...  1905/1915
