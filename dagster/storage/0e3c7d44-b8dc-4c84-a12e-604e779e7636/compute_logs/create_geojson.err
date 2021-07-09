@@ -1,0 +1,26 @@
+[32m2021-07-09 19:00:04[0m - dagster - [34mDEBUG[0m - camera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
+[32m2021-07-09 19:00:04[0m - dagster - [34mDEBUG[0m - camera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - STEP_START - Started execution of step "create_geojson".
+[32m2021-07-09 19:00:04[0m - dagster - [34mDEBUG[0m - camera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
+[32m2021-07-09 19:00:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-07-09 19:00:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-07-09 19:00:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-07-09 19:00:15[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - 0e3c7d44-b8dc-4c84-a12e-604e779e7636 - 16192 - create_geojson - STEP_FAILURE - Execution of step "create_geojson" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "create_geojson"::
+
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not dict
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views/solids/camera.py", line 341, in create_geojson
+    shutil.move(kml, path)
+  File "/usr/lib/python3.6/shutil.py", line 539, in move
+    if os.path.isdir(dst):
+  File "/usr/lib/python3.6/genericpath.py", line 42, in isdir
+    st = os.stat(s)
+[0m

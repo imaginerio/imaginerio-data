@@ -1,0 +1,21 @@
+[32m2021-07-09 17:16:55[0m - dagster - [34mDEBUG[0m - camera_pipeline - d98eae67-6ef4-45b9-8a36-0c80541c943f - 3694 - split_photooverlays - LOGS_CAPTURED - Started capturing logs for solid: split_photooverlays.
+[32m2021-07-09 17:16:55[0m - dagster - [34mDEBUG[0m - camera_pipeline - d98eae67-6ef4-45b9-8a36-0c80541c943f - 3694 - split_photooverlays - STEP_START - Started execution of step "split_photooverlays".
+[32m2021-07-09 17:16:55[0m - dagster - [34mDEBUG[0m - camera_pipeline - d98eae67-6ef4-45b9-8a36-0c80541c943f - 3694 - split_photooverlays - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "get_list"
+[32m2021-07-09 17:16:56[0m - dagster - [34mDEBUG[0m - camera_pipeline - d98eae67-6ef4-45b9-8a36-0c80541c943f - 3694 - split_photooverlays - STEP_INPUT - Got input "delete_original" of type "Any". (Type check passed).
+[32m2021-07-09 17:16:56[0m - dagster - [34mDEBUG[0m - camera_pipeline - d98eae67-6ef4-45b9-8a36-0c80541c943f - 3694 - split_photooverlays - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
+[32m2021-07-09 17:16:56[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - d98eae67-6ef4-45b9-8a36-0c80541c943f - 3694 - split_photooverlays - STEP_FAILURE - Execution of step "split_photooverlays" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "split_photooverlays"::
+
+UnboundLocalError: local variable 'photooverlays' referenced before assignment
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/utils/__init__.py", line 382, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-nEZA-I-k/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views/solids/camera.py", line 189, in split_photooverlays
+    for po in photooverlays:
+[0m
