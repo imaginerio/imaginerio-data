@@ -1,0 +1,10 @@
+[32m2021-07-14 19:21:22[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - LOGS_CAPTURED - Started capturing logs for solid: update_metadata.
+[32m2021-07-14 19:21:22[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - STEP_START - Started execution of step "update_metadata".
+[32m2021-07-14 19:21:22[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - LOADED_INPUT - Loaded input "df" using input manager "pandas_csv", from output "api_omeka" of step "omeka_dataframe"
+[32m2021-07-14 19:21:23[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-07-14 19:21:23[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-14 19:21:24[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-07-14 19:21:24[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - STEP_OUTPUT - Yielded output "metadata" of type "Any". (Type check passed).
+[32m2021-07-14 19:21:25[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - ASSET_MATERIALIZATION -  METADATA was saved <----------------------
+[32m2021-07-14 19:21:26[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - HANDLED_OUTPUT - Handled output "metadata" using IO manager "pandas_csv"
+[32m2021-07-14 19:21:26[0m - dagster - [34mDEBUG[0m - apis_pipeline - 10cb53fd-07e3-4498-8464-2983c6dc87a9 - 2377 - update_metadata - STEP_SUCCESS - Finished execution of step "update_metadata" in 2.05s.
