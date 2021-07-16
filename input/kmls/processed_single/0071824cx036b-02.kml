@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>0071824cx036b-02</name>
 		<Camera>
-			<longitude>-43.2967338628029</longitude>
-			<latitude>-22.98604838822592</latitude>
-			<altitude>44.59105329085323</altitude>
-			<heading>39.91222406178512</heading>
-			<tilt>95.99258962349927</tilt>
-			<roll>0.0007513489388843726</roll>
+			<longitude>-43.29674270966167</longitude>
+			<latitude>-22.9860800054976</latitude>
+			<altitude>43.61535127093531</altitude>
+			<heading>38.83353602248991</heading>
+			<tilt>98.13160170348705</tilt>
+			<roll>1.237235771089308e-12</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,18 +28,19 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/0071824cx036b-02/full/^1200,/0/default.jpg</href>
+			<href>/Users/martimpassos/Desktop/backlog/Cascatas/0071824cx036b-02.jpg</href>
 		</Icon>
+		<rotation>1.49</rotation>
 		<ViewVolume>
-			<leftFov>-25.16</leftFov>
-			<rightFov>25.16</rightFov>
-			<bottomFov>-19.44</bottomFov>
-			<topFov>19.44</topFov>
-			<near>1.44392</near>
+			<leftFov>-23.115</leftFov>
+			<rightFov>23.115</rightFov>
+			<bottomFov>-17.775</bottomFov>
+			<topFov>17.775</topFov>
+			<near>1.09297</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.2967338628029,-22.98604838822592,44.59105329085323</coordinates>
+			<coordinates>-43.29674270966167,-22.9860800054976,43.61535127093531</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

@@ -28,7 +28,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/002080RJ2711/full/^1200,/0/default.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/Estereoscopias-Guilherme-Santos/crop/002080RJ2711.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-22.2</leftFov>

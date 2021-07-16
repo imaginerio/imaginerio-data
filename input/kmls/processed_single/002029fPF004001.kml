@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
-		<name>002029fPF004001</name>
+		<name>002029FPF004001</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.17605521212772</longitude>
-			<latitude>-22.91398420575038</latitude>
-			<altitude>19.85630619486217</altitude>
-			<heading>163.9194719848441</heading>
-			<tilt>85.80745829266726</tilt>
-			<roll>0.03282410587451461</roll>
+			<longitude>-43.17604560296012</longitude>
+			<latitude>-22.91438980325137</latitude>
+			<altitude>21.56401207762802</altitude>
+			<heading>163.9434182560912</heading>
+			<tilt>85.63489161543333</tilt>
+			<roll>4.443234890004533e-12</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,18 +29,18 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/002029fPF004001/full/^1200,/0/default.jpg</href>
+			<href>https://images.imaginerio.org/iiif-img/002029FPF004001/full/^1200,/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-17.775</leftFov>
-			<rightFov>17.775</rightFov>
-			<bottomFov>-13.64</bottomFov>
-			<topFov>13.64</topFov>
-			<near>4.66318</near>
+			<leftFov>-15.625</leftFov>
+			<rightFov>15.625</rightFov>
+			<bottomFov>-11.575</bottomFov>
+			<topFov>11.575</topFov>
+			<near>5.00139</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17605521212772,-22.91398420575038,19.85630619486217</coordinates>
+			<coordinates>-43.17604560296012,-22.91438980325137,21.56401207762802</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

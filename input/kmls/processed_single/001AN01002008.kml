@@ -28,7 +28,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/001AN01002008/full/^1200,/0/default.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/001AN01002008.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-22.8</leftFov>
