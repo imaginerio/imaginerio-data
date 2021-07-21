@@ -18,7 +18,7 @@ Stack Trace:
   File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 307, in _coerce_solid_compute_fn_to_iterator
     result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
   File "/mnt/d/ims/situated-views/bin/solids/utils.py", line 69, in update_metadata
-    metadata[["first_year", "last_year"]] = metadata[
+    metadata[["First Year", "Last Year"]] = metadata[
   File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/generic.py", line 5877, in astype
     new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
   File "/home/pitanga/.local/share/virtualenvs/situated-views-yLYNqPII/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 631, in astype

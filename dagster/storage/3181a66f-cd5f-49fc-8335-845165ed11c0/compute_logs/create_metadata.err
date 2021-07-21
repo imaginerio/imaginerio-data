@@ -30,7 +30,7 @@ Stack Trace:
   File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
     result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
   File "bin/pipelines/metadata_pipeline.py", line 16, in create_metadata
-    camera_new = camera[['fov','longitude', 'altitude', 'latitude','heading', 'tilt', 'source', 'geometry', 'last_year', 'first_year']]
+    camera_new = camera[['fov','longitude', 'altitude', 'latitude','heading', 'tilt', 'source', 'geometry', 'Last Year', 'First Year']]
   File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/geopandas/geodataframe.py", line 1299, in __getitem__
     result = super(GeoDataFrame, self).__getitem__(key)
   File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pandas/core/frame.py", line 3030, in __getitem__

@@ -20,7 +20,7 @@ Stack Trace:
   File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/definitions/decorators/solid.py", line 329, in compute
     result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
   File "/mnt/d/IMS/situated-views/bin/solids/export.py", line 138, in organize_df_to_gis
-    gis_df["first_year"] = gis_df["first_year"].dt.strftime("%Y")
+    gis_df["First Year"] = gis_df["First Year"].dt.strftime("%Y")
   File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/pandas/core/generic.py", line 5465, in __getattr__
     return object.__getattribute__(self, name)
 [0m

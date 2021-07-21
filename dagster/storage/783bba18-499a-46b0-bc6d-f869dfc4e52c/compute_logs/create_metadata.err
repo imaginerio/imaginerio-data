@@ -16,7 +16,7 @@
 
 dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "create_metadata"::
 
-KeyError: "['date_created', 'creator', 'height', 'title', 'description', 'date_circa'] not in index"
+KeyError: "['date_created', 'creator', 'height', 'Title', 'description', 'date_circa'] not in index"
 
 Stack Trace:
   File "/home/pitanga/.local/share/virtualenvs/situated-views-XI40jPuu/lib/python3.8/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
