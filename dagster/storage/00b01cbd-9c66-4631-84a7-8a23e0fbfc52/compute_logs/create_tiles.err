@@ -1,0 +1,7 @@
+[32m2021-07-15 17:38:12[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - LOGS_CAPTURED - Started capturing logs for solid: create_tiles.
+[32m2021-07-15 17:38:12[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - STEP_START - Started execution of step "create_tiles".
+[32m2021-07-15 17:38:13[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - LOADED_INPUT - Loaded input "values" using input manager "io_manager", from output "result" of step "format_values_chart"
+[32m2021-07-15 17:38:13[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - STEP_INPUT - Got input "values" of type "Any". (Type check passed).
+[32m2021-07-15 17:38:13[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-07-15 17:38:14[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-07-15 17:38:14[0m - dagster - [34mDEBUG[0m - export_pipeline - 00b01cbd-9c66-4631-84a7-8a23e0fbfc52 - 24237 - create_tiles - STEP_SUCCESS - Finished execution of step "create_tiles" in 613ms.

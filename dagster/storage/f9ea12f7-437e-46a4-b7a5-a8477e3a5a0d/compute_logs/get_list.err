@@ -1,0 +1,32 @@
+[32m2021-07-15 17:08:56[0m - dagster - [34mDEBUG[0m - camera_pipeline - f9ea12f7-437e-46a4-b7a5-a8477e3a5a0d - 14259 - get_list - LOGS_CAPTURED - Started capturing logs for solid: get_list.
+[32m2021-07-15 17:08:57[0m - dagster - [34mDEBUG[0m - camera_pipeline - f9ea12f7-437e-46a4-b7a5-a8477e3a5a0d - 14259 - get_list - STEP_START - Started execution of step "get_list".
+[32m2021-07-15 17:08:57[0m - dagster - [34mERROR[0m - [31mcamera_pipeline - f9ea12f7-437e-46a4-b7a5-a8477e3a5a0d - 14259 - get_list - STEP_FAILURE - Execution of step "get_list" failed.
+
+dagster.core.errors.DagsterExecutionInterruptedError
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/execute_plan.py", line 193, in _dagster_event_sequence_for_step
+    for step_event in check.generator(step_events):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/execute_step.py", line 322, in core_dagster_event_sequence_for_step
+    _step_output_error_checked_user_event_sequence(step_context, user_event_sequence)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/execute_step.py", line 65, in _step_output_error_checked_user_event_sequence
+    for user_event in user_event_sequence:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute.py", line 138, in execute_core_compute
+    for step_output in _yield_compute_results(step_context, inputs, compute_fn):
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute.py", line 120, in _yield_compute_results
+    user_event_generator,
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 381, in iterate_with_context
+    with context_fn():
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 40, in solid_execution_error_boundary
+    with raise_execution_interrupts():
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/errors.py", line 152, in raise_execution_interrupts
+    with raise_interrupts_as(DagsterExecutionInterruptedError):
+  File "/usr/lib/python3.6/contextlib.py", line 81, in __enter__
+    return next(self.gen)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/interrupts.py", line 73, in raise_interrupts_as
+    raise error_cls()
+[0m

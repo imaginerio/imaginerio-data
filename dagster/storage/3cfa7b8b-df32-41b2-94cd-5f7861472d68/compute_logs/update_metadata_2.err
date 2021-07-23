@@ -1,0 +1,10 @@
+[32m2021-07-16 16:17:01[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - LOGS_CAPTURED - Started capturing logs for solid: update_metadata_2.
+[32m2021-07-16 16:17:01[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - STEP_START - Started execution of step "update_metadata_2".
+[32m2021-07-16 16:17:01[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - LOADED_INPUT - Loaded input "df" using input manager "pandas_csv", from output "api_wikidata" of step "wikidata_dataframe"
+[32m2021-07-16 16:17:02[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-07-16 16:17:02[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-16 16:17:03[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-07-16 16:17:03[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - STEP_OUTPUT - Yielded output "metadata" of type "Any". (Type check passed).
+[32m2021-07-16 16:17:04[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - ASSET_MATERIALIZATION -  METADATA was saved <----------------------
+[32m2021-07-16 16:17:04[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - HANDLED_OUTPUT - Handled output "metadata" using IO manager "pandas_csv"
+[32m2021-07-16 16:17:05[0m - dagster - [34mDEBUG[0m - apis_pipeline - 3cfa7b8b-df32-41b2-94cd-5f7861472d68 - 13223 - update_metadata_2 - STEP_SUCCESS - Finished execution of step "update_metadata_2" in 1.55s.

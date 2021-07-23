@@ -1,0 +1,28 @@
+[32m2021-07-23 12:19:24[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 4d0f04e4-3988-49e4-ba9b-21652078ff38 - 1119 - format_date - LOGS_CAPTURED - Started capturing logs for solid: format_date.
+[32m2021-07-23 12:19:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 4d0f04e4-3988-49e4-ba9b-21652078ff38 - 1119 - format_date - STEP_START - Started execution of step "format_date".
+[32m2021-07-23 12:19:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 4d0f04e4-3988-49e4-ba9b-21652078ff38 - 1119 - format_date - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-23 12:19:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 4d0f04e4-3988-49e4-ba9b-21652078ff38 - 1119 - format_date - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-23 12:19:26[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - 4d0f04e4-3988-49e4-ba9b-21652078ff38 - 1119 - format_date - STEP_FAILURE - Execution of step "format_date" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "format_date"::
+
+KeyError: "['014AM005029'] not found in axis"
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 158, in format_date
+    df.drop(index="014AM005029", inplace=True)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/frame.py", line 4174, in drop
+    errors=errors,
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/generic.py", line 3889, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/generic.py", line 3923, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/indexes/base.py", line 5287, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+[0m

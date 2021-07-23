@@ -1,0 +1,25 @@
+[32m2021-07-15 16:30:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1f39f682-7f68-4cba-8a5f-f0d0676c46cb - 6576 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
+[32m2021-07-15 16:30:35[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1f39f682-7f68-4cba-8a5f-f0d0676c46cb - 6576 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
+[32m2021-07-15 16:30:35[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1f39f682-7f68-4cba-8a5f-f0d0676c46cb - 6576 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-15 16:30:35[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1f39f682-7f68-4cba-8a5f-f0d0676c46cb - 6576 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-15 16:30:39[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1f39f682-7f68-4cba-8a5f-f0d0676c46cb - 6576 - dates_accuracy - STEP_OUTPUT - Yielded output "cumulus" of type "Any". (Type check passed).
+[32m2021-07-15 16:30:39[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - 1f39f682-7f68-4cba-8a5f-f0d0676c46cb - 6576 - dates_accuracy - STEP_FAILURE - Execution of step "dates_accuracy" failed.
+
+dagster.core.errors.DagsterExecutionHandleOutputError: Error occurred while handling output "cumulus" of step "dates_accuracy"::
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data/output/log/cumulus.csv'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/mnt/e/situated-views-etl/solids/utils.py", line 34, in handle_output
+    obj.to_csv(file_path + ".csv")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/generic.py", line 3170, in to_csv
+    formatter.save()
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/formats/csvs.py", line 190, in save
+    compression=dict(self.compression_args, method=self.compression),
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/common.py", line 493, in get_handle
+    f = open(path_or_buf, mode, encoding=encoding, errors=errors, newline="")
+[0m

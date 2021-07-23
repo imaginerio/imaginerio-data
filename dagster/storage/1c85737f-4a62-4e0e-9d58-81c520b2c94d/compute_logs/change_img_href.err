@@ -1,0 +1,5 @@
+[32m2021-07-15 18:48:35[0m - dagster - [34mDEBUG[0m - camera_pipeline - 1c85737f-4a62-4e0e-9d58-81c520b2c94d - 14877 - change_img_href - LOGS_CAPTURED - Started capturing logs for solid: change_img_href.
+[32m2021-07-15 18:48:35[0m - dagster - [34mDEBUG[0m - camera_pipeline - 1c85737f-4a62-4e0e-9d58-81c520b2c94d - 14877 - change_img_href - STEP_START - Started execution of step "change_img_href".
+[32m2021-07-15 18:48:39[0m - dagster - [34mDEBUG[0m - camera_pipeline - 1c85737f-4a62-4e0e-9d58-81c520b2c94d - 14877 - change_img_href - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-07-15 18:48:39[0m - dagster - [34mDEBUG[0m - camera_pipeline - 1c85737f-4a62-4e0e-9d58-81c520b2c94d - 14877 - change_img_href - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-07-15 18:48:40[0m - dagster - [34mDEBUG[0m - camera_pipeline - 1c85737f-4a62-4e0e-9d58-81c520b2c94d - 14877 - change_img_href - STEP_SUCCESS - Finished execution of step "change_img_href" in 4.06s.

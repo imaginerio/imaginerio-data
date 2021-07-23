@@ -1,0 +1,49 @@
+[32m2021-07-23 15:41:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1664673e-55db-4f60-a594-d12c313303a3 - 502 - format_date - LOGS_CAPTURED - Started capturing logs for solid: format_date.
+[32m2021-07-23 15:41:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1664673e-55db-4f60-a594-d12c313303a3 - 502 - format_date - STEP_START - Started execution of step "format_date".
+[32m2021-07-23 15:41:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1664673e-55db-4f60-a594-d12c313303a3 - 502 - format_date - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-23 15:41:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 1664673e-55db-4f60-a594-d12c313303a3 - 502 - format_date - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-23 15:41:35[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - 1664673e-55db-4f60-a594-d12c313303a3 - 502 - format_date - STEP_FAILURE - Execution of step "format_date" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "format_date"::
+
+dateutil.parser._parser.ParserError: month must be in 1..12: 1921/25/10
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 155, in format_date
+    df["datetime"] = pd.to_datetime(df["datetime"])
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/tools/datetimes.py", line 799, in to_datetime
+    cache_array = _maybe_cache(arg, format, cache, convert_listlike)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/tools/datetimes.py", line 170, in _maybe_cache
+    cache_dates = convert_listlike(unique_dates, format)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/tools/datetimes.py", line 466, in _convert_listlike_datetimes
+    allow_object=True,
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/arrays/datetimes.py", line 2064, in objects_to_datetime64ns
+    raise e
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/arrays/datetimes.py", line 2055, in objects_to_datetime64ns
+    require_iso8601=require_iso8601,
+  File "pandas/_libs/tslib.pyx", line 352, in pandas._libs.tslib.array_to_datetime
+  File "pandas/_libs/tslib.pyx", line 579, in pandas._libs.tslib.array_to_datetime
+  File "pandas/_libs/tslib.pyx", line 714, in pandas._libs.tslib.array_to_datetime_object
+  File "pandas/_libs/tslib.pyx", line 705, in pandas._libs.tslib.array_to_datetime_object
+  File "pandas/_libs/tslibs/parsing.pyx", line 243, in pandas._libs.tslibs.parsing.parse_datetime_string
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 1368, in parse
+    return DEFAULTPARSER.parse(timestr, **kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 651, in parse
+    six.raise_from(ParserError(str(e) + ": %s", timestr), e)
+  File "<string>", line 3, in raise_from
+
+The above exception was the direct cause of the following exception:
+ValueError: month must be in 1..12
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 649, in parse
+    ret = self._build_naive(res, default)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 1235, in _build_naive
+    naive = default.replace(**repl)
+[0m

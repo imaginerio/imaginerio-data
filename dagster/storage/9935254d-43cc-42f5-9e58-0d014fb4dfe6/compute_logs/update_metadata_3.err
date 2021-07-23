@@ -1,0 +1,10 @@
+[32m2021-07-16 16:08:45[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - LOGS_CAPTURED - Started capturing logs for solid: update_metadata_3.
+[32m2021-07-16 16:08:45[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - STEP_START - Started execution of step "update_metadata_3".
+[32m2021-07-16 16:08:45[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - LOADED_INPUT - Loaded input "df" using input manager "pandas_csv", from output "api_portals" of step "portals_dataframe"
+[32m2021-07-16 16:08:45[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-07-16 16:08:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-16 16:08:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
+[32m2021-07-16 16:08:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - STEP_OUTPUT - Yielded output "metadata" of type "Any". (Type check passed).
+[32m2021-07-16 16:08:47[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - ASSET_MATERIALIZATION -  METADATA was saved <----------------------
+[32m2021-07-16 16:08:48[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - HANDLED_OUTPUT - Handled output "metadata" using IO manager "pandas_csv"
+[32m2021-07-16 16:08:48[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9935254d-43cc-42f5-9e58-0d014fb4dfe6 - 11342 - update_metadata_3 - STEP_SUCCESS - Finished execution of step "update_metadata_3" in 1.77s.

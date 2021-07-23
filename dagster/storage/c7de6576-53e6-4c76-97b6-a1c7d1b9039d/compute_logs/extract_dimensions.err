@@ -1,0 +1,22 @@
+[32m2021-07-22 13:47:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c7de6576-53e6-4c76-97b6-a1c7d1b9039d - 3016 - extract_dimensions - LOGS_CAPTURED - Started capturing logs for solid: extract_dimensions.
+[32m2021-07-22 13:47:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c7de6576-53e6-4c76-97b6-a1c7d1b9039d - 3016 - extract_dimensions - STEP_START - Started execution of step "extract_dimensions".
+[32m2021-07-22 13:47:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c7de6576-53e6-4c76-97b6-a1c7d1b9039d - 3016 - extract_dimensions - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "organize_columns"
+[32m2021-07-22 13:47:23[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c7de6576-53e6-4c76-97b6-a1c7d1b9039d - 3016 - extract_dimensions - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-22 13:47:23[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - c7de6576-53e6-4c76-97b6-a1c7d1b9039d - 3016 - extract_dimensions - STEP_FAILURE - Execution of step "extract_dimensions" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "extract_dimensions"::
+
+TypeError: cannot convert the series to <class 'float'>
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 125, in extract_dimensions
+    df["width (mm)"] = float(dimensions["width"]) * 100
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/series.py", line 129, in wrapper
+    raise TypeError(f"cannot convert the series to {converter}")
+[0m

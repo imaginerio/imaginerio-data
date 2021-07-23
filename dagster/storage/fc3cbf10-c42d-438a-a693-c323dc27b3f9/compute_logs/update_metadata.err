@@ -1,0 +1,28 @@
+[32m2021-07-15 16:32:08[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - update_metadata - LOGS_CAPTURED - Started capturing logs for solid: update_metadata.
+[32m2021-07-15 16:32:08[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - update_metadata - STEP_START - Started execution of step "update_metadata".
+[32m2021-07-15 16:32:08[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - update_metadata - STEP_FAILURE - Execution of step "update_metadata" failed.
+
+dagster.core.errors.DagsterExecutionLoadInputError: Error occurred while loading input "df" of step "update_metadata"::
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data/output/log/cumulus.csv'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/inputs.py", line 502, in _load_input_with_input_manager
+    value = input_manager.load_input(context)
+  File "/mnt/e/situated-views-etl/solids/utils.py", line 22, in load_input
+    return pd.read_csv(file_path + ".csv", index_col="id")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/parsers.py", line 688, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/parsers.py", line 454, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/parsers.py", line 948, in __init__
+    self._make_engine(self.engine)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/parsers.py", line 1180, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/io/parsers.py", line 2010, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 382, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+[0m

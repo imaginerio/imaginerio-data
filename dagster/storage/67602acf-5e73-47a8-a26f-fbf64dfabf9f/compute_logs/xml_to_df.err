@@ -1,0 +1,20 @@
+[32m2021-07-22 14:20:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 67602acf-5e73-47a8-a26f-fbf64dfabf9f - 3644 - xml_to_df - LOGS_CAPTURED - Started capturing logs for solid: xml_to_df.
+[32m2021-07-22 14:20:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 67602acf-5e73-47a8-a26f-fbf64dfabf9f - 3644 - xml_to_df - STEP_START - Started execution of step "xml_to_df".
+[32m2021-07-22 14:20:23[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 67602acf-5e73-47a8-a26f-fbf64dfabf9f - 3644 - xml_to_df - LOADED_INPUT - Loaded input "root" using input manager "cumulus_root"
+[32m2021-07-22 14:20:24[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 67602acf-5e73-47a8-a26f-fbf64dfabf9f - 3644 - xml_to_df - STEP_INPUT - Got input "root" of type "Any". (Type check passed).
+[32m2021-07-22 14:20:24[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - 67602acf-5e73-47a8-a26f-fbf64dfabf9f - 3644 - xml_to_df - STEP_FAILURE - Execution of step "xml_to_df" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "xml_to_df"::
+
+AttributeError: 'list' object has no attribute 'applast'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 34, in xml_to_df
+    outDict["table"][outDict["uids"][field_value.attrib["uid"]]].applast(
+[0m

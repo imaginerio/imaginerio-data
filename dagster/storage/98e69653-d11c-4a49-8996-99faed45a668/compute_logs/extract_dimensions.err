@@ -1,0 +1,30 @@
+[32m2021-07-22 13:51:41[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 98e69653-d11c-4a49-8996-99faed45a668 - 3092 - extract_dimensions - LOGS_CAPTURED - Started capturing logs for solid: extract_dimensions.
+[32m2021-07-22 13:51:41[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 98e69653-d11c-4a49-8996-99faed45a668 - 3092 - extract_dimensions - STEP_START - Started execution of step "extract_dimensions".
+[32m2021-07-22 13:51:41[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 98e69653-d11c-4a49-8996-99faed45a668 - 3092 - extract_dimensions - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "organize_columns"
+[32m2021-07-22 13:51:41[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 98e69653-d11c-4a49-8996-99faed45a668 - 3092 - extract_dimensions - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-22 13:51:41[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - 98e69653-d11c-4a49-8996-99faed45a668 - 3092 - extract_dimensions - STEP_FAILURE - Execution of step "extract_dimensions" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "extract_dimensions"::
+
+ValueError: could not convert string to float: '14,1'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 126, in extract_dimensions
+    df["width (mm)"] = dimensions["width"].replace(",", ".").astype(float) * 100
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/generic.py", line 5548, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors,)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/internals/managers.py", line 604, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/internals/managers.py", line 409, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/internals/blocks.py", line 595, in astype
+    values = astype_nansafe(vals1d, dtype, copy=True)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/dtypes/cast.py", line 997, in astype_nansafe
+    return arr.astype(dtype, copy=True)
+[0m

@@ -1,0 +1,26 @@
+[32m2021-07-22 15:22:01[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c257cfe7-94a3-47e1-bff7-045e09f34843 - 4136 - format_date - LOGS_CAPTURED - Started capturing logs for solid: format_date.
+[32m2021-07-22 15:22:01[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c257cfe7-94a3-47e1-bff7-045e09f34843 - 4136 - format_date - STEP_START - Started execution of step "format_date".
+[32m2021-07-22 15:22:02[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c257cfe7-94a3-47e1-bff7-045e09f34843 - 4136 - format_date - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-22 15:22:02[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - c257cfe7-94a3-47e1-bff7-045e09f34843 - 4136 - format_date - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-22 15:22:05[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - c257cfe7-94a3-47e1-bff7-045e09f34843 - 4136 - format_date - STEP_FAILURE - Execution of step "format_date" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "format_date"::
+
+AttributeError: Can only use .dt accessor with datetimelike values
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 178, in format_date
+    df.loc[day, "Date"] = df["Date"].dt.strftime("%d-%m-%Y")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/generic.py", line 5137, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/accessor.py", line 187, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/indexes/accessors.py", line 480, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+[0m

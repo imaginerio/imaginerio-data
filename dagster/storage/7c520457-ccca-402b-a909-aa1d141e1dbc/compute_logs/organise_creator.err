@@ -1,0 +1,8 @@
+[32m2021-07-15 18:53:36[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - LOGS_CAPTURED - Started capturing logs for solid: organise_creator.
+[32m2021-07-15 18:53:37[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - STEP_START - Started execution of step "organise_creator".
+[32m2021-07-15 18:53:37[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - LOADED_INPUT - Loaded input "quickstate" using input manager "io_manager", from output "result" of step "make_df_to_wikidata"
+[32m2021-07-15 18:53:37[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - STEP_INPUT - Got input "quickstate" of type "Any". (Type check passed).
+[32m2021-07-15 18:53:38[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - STEP_OUTPUT - Yielded output "import_wikidata" of type "Any". (Type check passed).
+[32m2021-07-15 18:53:38[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - ASSET_MATERIALIZATION -  IMPORT_WIKIDATA was saved <----------------------
+[32m2021-07-15 18:53:39[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - HANDLED_OUTPUT - Handled output "import_wikidata" using IO manager "pandas_csv"
+[32m2021-07-15 18:53:39[0m - dagster - [34mDEBUG[0m - export_pipeline - 7c520457-ccca-402b-a909-aa1d141e1dbc - 17013 - organise_creator - STEP_SUCCESS - Finished execution of step "organise_creator" in 1.61s.

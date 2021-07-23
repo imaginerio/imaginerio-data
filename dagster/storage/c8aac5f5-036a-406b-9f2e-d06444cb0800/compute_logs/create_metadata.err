@@ -1,0 +1,40 @@
+[32m2021-07-22 12:25:30[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOGS_CAPTURED - Started capturing logs for solid: create_metadata.
+[32m2021-07-22 12:25:30[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_START - Started execution of step "create_metadata".
+[32m2021-07-22 12:25:35[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOADED_INPUT - Loaded input "camera" using input manager "camera_root"
+[32m2021-07-22 12:25:36[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOADED_INPUT - Loaded input "cumulus" using input manager "cumulus_root"
+[32m2021-07-22 12:25:36[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOADED_INPUT - Loaded input "images" using input manager "images_root"
+[32m2021-07-22 12:25:36[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOADED_INPUT - Loaded input "jstor" using input manager "jstor_root"
+[32m2021-07-22 12:25:37[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOADED_INPUT - Loaded input "portals" using input manager "portals_root"
+[32m2021-07-22 12:25:37[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - LOADED_INPUT - Loaded input "wikidata" using input manager "wikidata_root"
+[32m2021-07-22 12:25:37[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_INPUT - Got input "camera" of type "Any". (Type check passed).
+[32m2021-07-22 12:25:37[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_INPUT - Got input "cumulus" of type "Any". (Type check passed).
+[32m2021-07-22 12:25:38[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_INPUT - Got input "images" of type "Any". (Type check passed).
+[32m2021-07-22 12:25:38[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_INPUT - Got input "jstor" of type "Any". (Type check passed).
+[32m2021-07-22 12:25:38[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_INPUT - Got input "portals" of type "Any". (Type check passed).
+[32m2021-07-22 12:25:38[0m - dagster - [34mDEBUG[0m - metadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_INPUT - Got input "wikidata" of type "Any". (Type check passed).
+[32m2021-07-22 12:25:39[0m - dagster - [34mERROR[0m - [31mmetadata_pipeline - c8aac5f5-036a-406b-9f2e-d06444cb0800 - 503 - create_metadata - STEP_FAILURE - Execution of step "create_metadata" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "create_metadata"::
+
+KeyError: 'Source ID'
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "pipelines/metadata_pipeline.py", line 56, in create_metadata
+    metadata = metadata.merge(df, how="outer", on="Source ID")
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/frame.py", line 7963, in merge
+    validate=validate,
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/reshape/merge.py", line 87, in merge
+    validate=validate,
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/reshape/merge.py", line 652, in __init__
+    ) = self._get_merge_keys()
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/reshape/merge.py", line 1005, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/pandas/core/generic.py", line 1563, in _get_label_or_level_values
+    raise KeyError(key)
+[0m

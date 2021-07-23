@@ -1,0 +1,33 @@
+[32m2021-07-23 17:03:45[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 53f1f7fd-6d56-4849-8d29-cced0675663d - 1449 - format_date - LOGS_CAPTURED - Started capturing logs for solid: format_date.
+[32m2021-07-23 17:03:45[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 53f1f7fd-6d56-4849-8d29-cced0675663d - 1449 - format_date - STEP_START - Started execution of step "format_date".
+[32m2021-07-23 17:03:45[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 53f1f7fd-6d56-4849-8d29-cced0675663d - 1449 - format_date - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
+[32m2021-07-23 17:03:45[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 53f1f7fd-6d56-4849-8d29-cced0675663d - 1449 - format_date - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
+[32m2021-07-23 17:03:47[0m - dagster - [34mERROR[0m - [31mcumulus_pipeline - 53f1f7fd-6d56-4849-8d29-cced0675663d - 1449 - format_date - STEP_FAILURE - Execution of step "format_date" failed.
+
+dagster.core.errors.DagsterExecutionStepExecutionError: Error occurred while executing solid "format_date"::
+
+TypeError: Cannot convert input [0      1910-01-01
+1      1910-01-01
+2      1910-01-01
+3      1910-01-01
+4      1910-01-01
+          ...    
+5798          NaT
+5799          NaT
+5800          NaT
+5801          NaT
+5802          NaT
+Name: datetime, Length: 5797, dtype: datetime64[ns]] of type <class 'pandas.core.series.Series'> to Timestamp
+
+Stack Trace:
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/utils.py", line 42, in solid_execution_error_boundary
+    yield
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/utils/__init__.py", line 383, in iterate_with_context
+    next_output = next(iterator)
+  File "/home/pitanga/.local/share/virtualenvs/situated-views-etl-KhhASCmw/lib/python3.6/site-packages/dagster/core/execution/plan/compute_generator.py", line 65, in _coerce_solid_compute_fn_to_iterator
+    result = fn(context, **kwargs) if context_arg_provided else fn(**kwargs)
+  File "/mnt/e/situated-views-etl/solids/cumulus.py", line 161, in format_date
+    df["datetime"]
+  File "pandas/_libs/tslibs/timestamps.pyx", line 1074, in pandas._libs.tslibs.timestamps.Timestamp.__new__
+  File "pandas/_libs/tslibs/conversion.pyx", line 436, in pandas._libs.tslibs.conversion.convert_to_tsobject
+[0m

@@ -1,0 +1,18 @@
+[32m2021-07-15 18:57:34[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - LOGS_CAPTURED - Started capturing logs for solid: export_html.
+[32m2021-07-15 18:57:35[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - STEP_START - Started execution of step "export_html".
+[32m2021-07-15 18:57:35[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - LOADED_INPUT - Loaded input "plot_hbar" using input manager "io_manager", from output "result" of step "create_hbar"
+[32m2021-07-15 18:57:35[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - LOADED_INPUT - Loaded input "plot_pie" using input manager "io_manager", from output "result" of step "create_pie"
+[32m2021-07-15 18:57:35[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - LOADED_INPUT - Loaded input "plot_tiles" using input manager "io_manager", from output "result" of step "create_tiles"
+[32m2021-07-15 18:57:36[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - STEP_INPUT - Got input "plot_hbar" of type "Any". (Type check passed).
+[32m2021-07-15 18:57:36[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - STEP_INPUT - Got input "plot_pie" of type "Any". (Type check passed).
+[32m2021-07-15 18:57:36[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - STEP_INPUT - Got input "plot_tiles" of type "Any". (Type check passed).
+Start : This command cannot be run due to the error: The system cannot find the file specified.
+At line:1 char:1
++ Start "file:///mnt/e/situated-views-etl/data/output/index.html"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+ 
+[32m2021-07-15 18:57:37[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-07-15 18:57:38[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-07-15 18:57:38[0m - dagster - [34mDEBUG[0m - export_pipeline - 03f9d2b0-e866-4c01-ae46-9e490f0cc0ff - 18896 - export_html - STEP_SUCCESS - Finished execution of step "export_html" in 1.81s.
