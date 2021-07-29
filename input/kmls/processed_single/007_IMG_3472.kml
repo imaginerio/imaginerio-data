@@ -28,7 +28,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/Estereoscopias-Ferrez/crop/007_IMG_3472.jpg</href>
+			<href>https://images.imaginerio.org/iiif-img/007_IMG_3472/full/^1200,/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-25</leftFov>

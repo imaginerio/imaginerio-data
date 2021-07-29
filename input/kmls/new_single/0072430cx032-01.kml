@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
-		<name>007A6P4FP27-033</name>
+		<name>0072430cx032-01</name>
 		<Camera>
-			<longitude>-43.1732682396297</longitude>
-			<latitude>-22.90206645225245</latitude>
-			<altitude>3.139622544594677</altitude>
-			<heading>-60.7759793356106</heading>
-			<tilt>88.60966736601469</tilt>
-			<roll>2.512599713644533e-08</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<longitude>-43.17121581164342</longitude>
+			<latitude>-22.90336619440113</latitude>
+			<altitude>15.39101123319759</altitude>
+			<heading>-93.14806103082273</heading>
+			<tilt>89.32949601537564</tilt>
+			<roll>0.0002503042180962048</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -28,18 +28,19 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>Y:/USUARIOS/MARTIM/resize/007A6P4FP27-33.jpg</href>
+			<href>https://images.imaginerio.org/iiif-img/0072430cx032-01/full/^1200,/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-25</leftFov>
 			<rightFov>25</rightFov>
-			<bottomFov>-19.965</bottomFov>
-			<topFov>19.965</topFov>
-			<near>1.08788</near>
+			<bottomFov>-20.515</bottomFov>
+			<topFov>20.515</topFov>
+			<near>3.03973</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.1732682396297,-22.90206645225244,3.139622544594677</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.17121581164342,-22.90336619440113,15.39101123319759</coordinates>
 		</Point>
 	</PhotoOverlay>
+
 </kml>
