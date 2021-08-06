@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
-		<name>007NGBMF2137cx16-02</name>
+		<name>007A6P4FP27-033</name>
 		<Camera>
-			<longitude>-43.18101351571958</longitude>
-			<latitude>-22.91941931241608</latitude>
-			<altitude>92.94059883768054</altitude>
-			<heading>145.8267947772981</heading>
-			<tilt>86.91999999999997</tilt>
-			<roll>0.03115980693739608</roll>
-			<altitudeMode>absolute</altitudeMode>
+			<longitude>-43.1732682396297</longitude>
+			<latitude>-22.90206645225245</latitude>
+			<altitude>3.139622544594677</altitude>
+			<heading>-60.7759793356106</heading>
+			<tilt>88.60966736601469</tilt>
+			<roll>2.512599713644533e-08</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -28,18 +28,18 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>/Users/a295805/code/liquid-galaxy/_demo-1-content/marc-ferrez/ferrez-lg/007NGBMF2137cx16-02.jpg</href>
+			<href>https://images.imaginerio.org/iiif-img/007A6P4FP27-033/full/^1200,/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-24.995</leftFov>
-			<rightFov>24.995</rightFov>
-			<bottomFov>-12.5</bottomFov>
-			<topFov>12.5</topFov>
-			<near>9.39266</near>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-19.965</bottomFov>
+			<topFov>19.965</topFov>
+			<near>1.08788</near>
 		</ViewVolume>
 		<Point>
-			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.18101351571958,-22.91941931241608,92.94059883768054</coordinates>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.1732682396297,-22.90206645225244,3.139622544594677</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
-		<name>007Dscn4372</name>
+		<name>014AAN012023</name>
 		<Camera>
-			<longitude>-43.17546497299996</longitude>
-			<latitude>-22.90654825799999</latitude>
-			<altitude>74.01818232309043</altitude>
-			<heading>46.94353101493738</heading>
-			<tilt>86.48000000000012</tilt>
-			<roll>-0.0003620511113095041</roll>
+			<longitude>-43.18836796017755</longitude>
+			<latitude>-22.98612472775301</latitude>
+			<altitude>8.049213581321739</altitude>
+			<heading>61.6730933550374</heading>
+			<tilt>94.40966520790956</tilt>
+			<roll>0.5108579779875677</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,18 +28,18 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>C:/Users/a295805/Pictures/Saved Pictures/007Dscn4372.jpg.png</href>
+			<href>https://images.imaginerio.org/iiif-img/014AAN012023/full/^1200,/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-24.0628</leftFov>
-			<rightFov>24.0628</rightFov>
-			<bottomFov>-12.3</bottomFov>
-			<topFov>12.3</topFov>
-			<near>22.2799</near>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-19.255</bottomFov>
+			<topFov>19.255</topFov>
+			<near>0.687088</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17546497299996,-22.90654825799999,74.01818232309043</coordinates>
+			<coordinates>-43.18836796017755,-22.98612472775301,8.049213581321739</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>
