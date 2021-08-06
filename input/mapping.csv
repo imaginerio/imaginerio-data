@@ -14,10 +14,14 @@ FOTOGRAFIA,FOTOGRAFIA,Q0000
 FOTOGRAFIA/ Vidro,FOTOGRAFIA/ Vidro,Q0000
 NEGATIVO flexível,NEGATIVO flexível,Q0000
 NEGATIVO/ Papel,NEGATIVO/ Papel,Q0000
-AMBROTIPIA/ Prata,AMBROTIPIA/ Prata,Q0000
-COLOTIPIA/ Pigmento,COLOTIPIA/ Pigmento,Q0000
+Ambrotype,Ambrótipo,Q459832
+Collotype print,Colotipia,Q106452651
 FOTOGRAFIA INSTANTÂNEA (Polaroid)/ Corante,FOTOGRAFIA INSTANTÂNEA (Polaroid)/ Corante,Q0000
-FOTOGRAVURA/ Pigmento,FOTOGRAVURA/ Pigmento,Q0000
+Photogravure,Fotogravura,Q1602553
 GELATINA/ Corante,GELATINA/ Corante,Q0000
-MEIO-TOM/ Pigmento,MEIO-TOM/ Pigmento,Q0000
+Halftone,Meio tom,Q1110021
 Pigmento,Pigmento,Q0000
+Photograph,Fotografia,Q125191
+Drawing,Desenho,Q93184
+Map,Mapa,Q4006
+Floor plan,Planta baixa,Q18965
