@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>014AAN00521</name>
 		<Camera>
-			<longitude>-43.17964804545689</longitude>
-			<latitude>-22.96734168160514</latitude>
-			<altitude>8.752384653052202</altitude>
-			<heading>-174.6552843878748</heading>
-			<tilt>90.70073880695134</tilt>
-			<roll>-1.132277466601012e-12</roll>
+			<longitude>-43.18050230906887</longitude>
+			<latitude>-22.96896011833319</latitude>
+			<altitude>14.0567546817517</altitude>
+			<heading>-175.5127081776388</heading>
+			<tilt>90.53768955234551</tilt>
+			<roll>1.116880901584343</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,19 +28,19 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>C:/Users/a092701/Documents/geolocation/geolocated/014AAN00521.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/014AAN005022.jpg</href>
 		</Icon>
-		<rotation>1.05</rotation>
+		<rotation>1.19</rotation>
 		<ViewVolume>
-			<leftFov>-25</leftFov>
-			<rightFov>25</rightFov>
-			<bottomFov>-19.205</bottomFov>
-			<topFov>19.205</topFov>
-			<near>1.23045</near>
+			<leftFov>-25.005</leftFov>
+			<rightFov>25.005</rightFov>
+			<bottomFov>-19.025</bottomFov>
+			<topFov>19.025</topFov>
+			<near>2.36294</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17964804545689,-22.96734168160514,8.752384653052202</coordinates>
+			<coordinates>-43.18050230906887,-22.96896011833319,14.0567546817517</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

@@ -2,14 +2,13 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
 		<name>014AAN00505</name>
-		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.17962635284027</longitude>
-			<latitude>-22.96352843790334</latitude>
-			<altitude>33.0503004274193</altitude>
-			<heading>-125.5727474498678</heading>
-			<tilt>91.50748588814841</tilt>
-			<roll>4.508299735664833e-08</roll>
+			<longitude>-43.1795892169822</longitude>
+			<latitude>-22.96328244965293</latitude>
+			<altitude>30.88008201031354</altitude>
+			<heading>-125.8924414701628</heading>
+			<tilt>92.79379153143314</tilt>
+			<roll>-3.91821484470919e-008</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -29,18 +28,19 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/014AAN00505/full/^1200,/0/default.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/014AAN012018.jpg</href>
 		</Icon>
+		<rotation>1.34</rotation>
 		<ViewVolume>
-			<leftFov>-26.975</leftFov>
-			<rightFov>26.975</rightFov>
-			<bottomFov>-20.56</bottomFov>
-			<topFov>20.56</topFov>
-			<near>2.25207</near>
+			<leftFov>-23.33</leftFov>
+			<rightFov>23.33</rightFov>
+			<bottomFov>-17.855</bottomFov>
+			<topFov>17.855</topFov>
+			<near>0.105</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17962635284027,-22.96352843790334,33.0503004274193</coordinates>
+			<coordinates>-43.1795892169822,-22.96328244965293,30.88008201031354</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

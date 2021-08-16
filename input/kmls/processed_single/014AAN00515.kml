@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>014AAN00515</name>
 		<Camera>
-			<longitude>-43.17216210568088</longitude>
-			<latitude>-22.96259531586505</latitude>
-			<altitude>58.02832305733578</altitude>
-			<heading>-113.0770390184849</heading>
-			<tilt>88.46989861871904</tilt>
-			<roll>-1.406934941986664e-08</roll>
+			<longitude>-43.17239108479556</longitude>
+			<latitude>-22.96227522770532</latitude>
+			<altitude>57.67238564980349</altitude>
+			<heading>-113.6337392370594</heading>
+			<tilt>88.45341569258406</tilt>
+			<roll>-6.947149572311961e-008</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,18 +28,19 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/014AAN00515/full/^1200,/0/default.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/014AAN005003.jpg</href>
 		</Icon>
+		<rotation>0.6</rotation>
 		<ViewVolume>
-			<leftFov>-26.5</leftFov>
-			<rightFov>26.5</rightFov>
-			<bottomFov>-20.25</bottomFov>
-			<topFov>20.25</topFov>
-			<near>0.964318</near>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-19.055</bottomFov>
+			<topFov>19.055</topFov>
+			<near>0.810466</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17216210568088,-22.96259531586505,58.02832305733578</coordinates>
+			<coordinates>-43.17239108479556,-22.96227522770533,57.67238564980349</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>
