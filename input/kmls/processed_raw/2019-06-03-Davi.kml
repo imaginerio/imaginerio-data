@@ -46,7 +46,7 @@
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
-		<name>014GLAS111frente</name>
+		<name>014GLAS111</name>
 		<Camera>
 			<longitude>-43.18056426684705</longitude>
 			<latitude>-22.90463289584002</latitude>
@@ -73,7 +73,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/014GLAS111frente.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/014GLAS111.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-25</leftFov>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
-		<name>0072430cx032-01</name>
+		<name>014GLAS112</name>
 		<Camera>
-			<longitude>-43.17121581164342</longitude>
-			<latitude>-22.90336619440113</latitude>
-			<altitude>15.39101123319759</altitude>
-			<heading>-93.14806103082273</heading>
-			<tilt>89.32949601537564</tilt>
-			<roll>0.0002503042180962048</roll>
+			<longitude>-43.17360980473649</longitude>
+			<latitude>-22.90276704404339</latitude>
+			<altitude>11.40257777042713</altitude>
+			<heading>-96.92047535565253</heading>
+			<tilt>93.97119016841258</tilt>
+			<roll>1.162810791543062e-011</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,18 +28,19 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://images.imaginerio.org/iiif-img/0072430cx032-01/full/^1200,/0/default.jpg</href>
+			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/014GLAS112.jpg</href>
 		</Icon>
+		<rotation>-0.24</rotation>
 		<ViewVolume>
-			<leftFov>-25</leftFov>
-			<rightFov>25</rightFov>
-			<bottomFov>-20.515</bottomFov>
-			<topFov>20.515</topFov>
-			<near>3.03973</near>
+			<leftFov>-19.065</leftFov>
+			<rightFov>19.065</rightFov>
+			<bottomFov>-15.04</bottomFov>
+			<topFov>15.04</topFov>
+			<near>2.27989</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17121581164342,-22.90336619440113,15.39101123319759</coordinates>
+			<coordinates>-43.17360980473649,-22.90276704404339,11.40257777042713</coordinates>
 		</Point>
 	</PhotoOverlay>
 

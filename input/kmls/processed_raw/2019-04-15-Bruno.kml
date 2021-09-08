@@ -256,7 +256,7 @@
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
-		<name>0072137CX008-04</name>
+		<name>0072137cx008-04</name>
 		<Camera>
 			<longitude>-43.17518624</longitude>
 			<latitude>-22.903064492</latitude>
@@ -283,7 +283,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>/Users/a295805/code/liquid-galaxy/_demo-1-content/marc-ferrez/ferrez-lg/0072137CX008-04.jpg</href>
+			<href>/Users/a295805/code/liquid-galaxy/_demo-1-content/marc-ferrez/ferrez-lg/0072137cx008-04.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-25</leftFov>
