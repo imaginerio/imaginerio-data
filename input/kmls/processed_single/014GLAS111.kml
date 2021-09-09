@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>014GLAS111</name>
 		<Camera>
-			<longitude>-43.18058110036566</longitude>
-			<latitude>-22.90469973201335</latitude>
-			<altitude>14.68805835025695</altitude>
-			<heading>-137.8405999764507</heading>
-			<tilt>87.89201837469417</tilt>
-			<roll>3.832568391163538e-13</roll>
+			<longitude>-43.18056426684705</longitude>
+			<latitude>-22.90463289584002</latitude>
+			<altitude>15.72325094444206</altitude>
+			<heading>-141.0178357677471</heading>
+			<tilt>88.33681043262686</tilt>
+			<roll>2.528928875393002e-006</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,19 +28,18 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>/Users/martimpassos/Desktop/backlog/São_Francisco/014GLAS111.jpg</href>
+			<href>https://images.imaginerio.org/iiif-img/014GLAS111/full/^1200,/0/default.jpg</href>
 		</Icon>
-		<rotation>-0.86</rotation>
 		<ViewVolume>
-			<leftFov>-30.05</leftFov>
-			<rightFov>30.05</rightFov>
-			<bottomFov>-24.7</bottomFov>
-			<topFov>24.7</topFov>
-			<near>2.52388</near>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-20.255</bottomFov>
+			<topFov>20.255</topFov>
+			<near>0.656034</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.18058110036566,-22.90469973201335,14.68805835025695</coordinates>
+			<coordinates>-43.18056426684705,-22.90463289584002,15.72325094444206</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>
