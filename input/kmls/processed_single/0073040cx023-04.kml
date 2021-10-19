@@ -28,7 +28,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/0073040cx023-04.jpg</href>
+			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx023-04/full/max/0/default.jpg</href>
 		</Icon>
 		<rotation>-1.2</rotation>
 		<ViewVolume>

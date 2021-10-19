@@ -28,7 +28,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://raw.githubusercontent.com/imaginerio/situated-views/dev/src/data-in/jpeg-sd/Invertidas/007CX182-01.jpg</href>
+			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007CX182-01/full/max/0/default.jpg</href>
 		</Icon>
 		<rotation>-2.82</rotation>
 		<ViewVolume>

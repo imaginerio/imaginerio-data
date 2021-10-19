@@ -28,7 +28,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://raw.githubusercontent.com/imaginerio/situated-views/master/images/0071824cxrio2-05.jpg</href>
+			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0071824cxrio2-05/full/max/0/default.jpg</href>
 		</Icon>
 		<rotation>-1.52</rotation>
 		<ViewVolume>
@@ -43,4 +43,5 @@
 			<coordinates>-43.17307630599996,-22.90147620299999,9.542185783538034</coordinates>
 		</Point>
 	</PhotoOverlay>
+
 </kml>

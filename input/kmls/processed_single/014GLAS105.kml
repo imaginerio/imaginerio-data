@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>014GLAS105</name>
 		<Camera>
-			<longitude>-43.17795940499975</longitude>
-			<latitude>-22.89751230600004</latitude>
-			<altitude>36.5758501206455</altitude>
-			<heading>125.9380440884065</heading>
-			<tilt>81.11462381870938</tilt>
-			<roll>0.005663596410467143</roll>
+			<longitude>-43.17825470375594</longitude>
+			<latitude>-22.897113846263</latitude>
+			<altitude>54.175362000567</altitude>
+			<heading>126.2218171000915</heading>
+			<tilt>83.69158505257578</tilt>
+			<roll>-8.651108733580766e-013</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -28,20 +28,18 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>C:/Users/a295805/Pictures/Saved Pictures/014GL27.jpg.png</href>
+			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/014GLAS105/full/max/0/default.jpg</href>
 		</Icon>
-		<rotation>-0.89</rotation>
 		<ViewVolume>
-			<leftFov>-28.845</leftFov>
-			<rightFov>28.845</rightFov>
-			<bottomFov>-22.76</bottomFov>
-			<topFov>22.76</topFov>
-			<near>6.42411</near>
+			<leftFov>-28.47</leftFov>
+			<rightFov>28.47</rightFov>
+			<bottomFov>-23.02</bottomFov>
+			<topFov>23.02</topFov>
+			<near>12.4511</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17795940499975,-22.89751230600004,36.5758501206455</coordinates>
+			<coordinates>-43.17825470375594,-22.89711384626299,54.175362000567</coordinates>
 		</Point>
 	</PhotoOverlay>
-
 </kml>
