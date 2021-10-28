@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
-	<name>25-02-2021-Martim</name>
-	<open>1</open>
+	<name>2021-02-25-Martim</name>
+	<visibility>0</visibility>
 	<PhotoOverlay>
 		<name>007ALA108</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.14449335385595</longitude>
 			<latitude>-22.95943759863457</latitude>
@@ -47,6 +48,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011008</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24944966499998</longitude>
 			<latitude>-22.97326439300002</latitude>
@@ -89,6 +91,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>0072137cx020-04</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24495989299999</longitude>
 			<latitude>-22.98670562499997</latitude>
@@ -131,6 +134,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>0071530cx002-10</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17673327873207</longitude>
 			<latitude>-22.94135908790276</latitude>
@@ -173,6 +177,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>0071824cxrio4-04</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.10583044648822</longitude>
 			<latitude>-22.74842720541631</latitude>
@@ -215,13 +220,14 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>0072137cx017-08</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.10234583019237</longitude>
-			<latitude>-22.7517484369363</latitude>
-			<altitude>3.305256304897938</altitude>
-			<heading>0.3912203284330368</heading>
-			<tilt>87.52316411967699</tilt>
-			<roll>-7.841518417880988e-07</roll>
+			<longitude>-43.10234583019234</longitude>
+			<latitude>-22.75174843693623</latitude>
+			<altitude>4.572903393237616</altitude>
+			<heading>0.3912203284330497</heading>
+			<tilt>87.52316411967709</tilt>
+			<roll>-7.841519149408565e-07</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -249,11 +255,11 @@
 			<rightFov>27.705</rightFov>
 			<bottomFov>-15.925</bottomFov>
 			<topFov>15.925</topFov>
-			<near>0.93237</near>
+			<near>0.105</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.10234583019237,-22.7517484369363,3.305256304897938</coordinates>
+			<coordinates>-43.10234583019234,-22.75174843693623,4.572903393237616</coordinates>
 		</Point>
 	</PhotoOverlay>
 </Folder>

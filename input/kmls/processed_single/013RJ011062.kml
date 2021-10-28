@@ -2,14 +2,15 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
 		<name>013RJ011062</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.21748363173623</longitude>
+			<longitude>-43.21748363173624</longitude>
 			<latitude>-22.94682021905987</latitude>
-			<altitude>17.64171752714451</altitude>
-			<heading>15.85319219255494</heading>
+			<altitude>470.2151183333655</altitude>
+			<heading>15.85319219255492</heading>
 			<tilt>83.99557276513745</tilt>
-			<roll>4.993470849897721e-13</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<roll>5.629581786190424e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -31,15 +32,15 @@
 			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/013RJ011062/full/max/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-29.965</leftFov>
-			<rightFov>29.965</rightFov>
+			<leftFov>-29.9674</leftFov>
+			<rightFov>29.9674</rightFov>
 			<bottomFov>-24.68</bottomFov>
 			<topFov>24.68</topFov>
-			<near>1.34718</near>
+			<near>6.11285</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.21748363173623,-22.94682021905987,17.64171752714451</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.21748363173624,-22.94682021905987,470.2151183333655</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>002080RJN0427</name>
 		<Camera>
-			<longitude>-43.17620934153842</longitude>
-			<latitude>-22.89635774193396</latitude>
-			<altitude>33.10714998729081</altitude>
-			<heading>32.28294031638916</heading>
-			<tilt>78.49546198806591</tilt>
-			<roll>1.068666372971742e-012</roll>
+			<longitude>-43.17626723365032</longitude>
+			<latitude>-22.89636400207161</latitude>
+			<altitude>36.40742786790867</altitude>
+			<heading>31.94872322919381</heading>
+			<tilt>76.14194832634161</tilt>
+			<roll>-6.469248222096792e-12</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -31,15 +31,15 @@
 			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/002080RJN0427/full/max/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-22.5</leftFov>
-			<rightFov>22.5</rightFov>
-			<bottomFov>-22.5</bottomFov>
-			<topFov>22.5</topFov>
-			<near>10.2809</near>
+			<leftFov>-24</leftFov>
+			<rightFov>24</rightFov>
+			<bottomFov>-20.145</bottomFov>
+			<topFov>20.145</topFov>
+			<near>12.58</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17620934153842,-22.89635774193396,33.10714998729081</coordinates>
+			<coordinates>-43.17626723365032,-22.89636400207161,36.40742786790867</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

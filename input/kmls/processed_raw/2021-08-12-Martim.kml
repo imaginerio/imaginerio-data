@@ -2,9 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>2021-08-12-Martim</name>
-	<open>1</open>
+	<visibility>0</visibility>
 	<PhotoOverlay>
 		<name>013RJ009059</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.25308836852735</longitude>
 			<latitude>-22.89056613860764</latitude>
@@ -48,6 +49,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009058</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24346663800995</longitude>
 			<latitude>-22.8943273611415</latitude>
@@ -91,6 +93,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009060</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24544799904297</longitude>
 			<latitude>-22.91760833490488</latitude>
@@ -134,6 +137,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009061</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24813518751559</longitude>
 			<latitude>-22.91630104902183</latitude>
@@ -177,6 +181,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009062</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24873508322941</longitude>
 			<latitude>-22.91585302559721</latitude>
@@ -219,6 +224,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ012027</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.23749227827402</longitude>
 			<latitude>-22.91404181527905</latitude>
@@ -261,6 +267,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ012028</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24210103055302</longitude>
 			<latitude>-22.93063873931027</latitude>
@@ -303,6 +310,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ012061</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18238542458347</longitude>
 			<latitude>-22.90706983215077</latitude>
@@ -345,6 +353,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ016016</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.19880410829286</longitude>
 			<latitude>-22.9165435522997</latitude>
@@ -387,6 +396,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009065</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.19584000386497</longitude>
 			<latitude>-22.9120762177232</latitude>
@@ -429,6 +439,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009066</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.19878892813047</longitude>
 			<latitude>-22.916271550458</latitude>
@@ -471,6 +482,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009067</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.21354866099997</longitude>
 			<latitude>-22.899847445</latitude>
@@ -514,6 +526,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009069</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.25420818984589</longitude>
 			<latitude>-22.93148404143252</latitude>
@@ -557,6 +570,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009071</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.33430707379617</longitude>
 			<latitude>-22.88333335537775</latitude>
@@ -600,6 +614,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ009072</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.33555392752837</longitude>
 			<latitude>-22.8789925739521</latitude>
@@ -643,6 +658,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011020</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18092594680046</longitude>
 			<latitude>-22.93389873821271</latitude>
@@ -685,6 +701,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011017</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.1775024040398</longitude>
 			<latitude>-22.93057458260567</latitude>
@@ -727,6 +744,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011022</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17749987413901</longitude>
 			<latitude>-22.93294397425039</latitude>
@@ -769,6 +787,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011028</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17678423428521</longitude>
 			<latitude>-22.92573403735392</latitude>
@@ -811,6 +830,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011032</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.27379813775977</longitude>
 			<latitude>-22.96109568717215</latitude>
@@ -853,6 +873,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011027</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.27345071538763</longitude>
 			<latitude>-22.961231693417</latitude>
@@ -895,6 +916,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011060</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.27320466721842</longitude>
 			<latitude>-22.95994932697263</latitude>
@@ -938,6 +960,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011036</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.22190758606021</longitude>
 			<latitude>-22.96939929303657</latitude>
@@ -980,6 +1003,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011044</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17678166544987</longitude>
 			<latitude>-22.93325192144084</latitude>
@@ -1022,6 +1046,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011051</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17816368231798</longitude>
 			<latitude>-22.91431301144683</latitude>
@@ -1064,6 +1089,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011053</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.2152021323076</longitude>
 			<latitude>-22.94578187508848</latitude>
@@ -1106,6 +1132,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011055</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.20497759157672</longitude>
 			<latitude>-22.94567496885032</latitude>
@@ -1148,14 +1175,15 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011059</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.21840534616509</longitude>
-			<latitude>-22.93338202563548</latitude>
-			<altitude>92.18756759271365</altitude>
-			<heading>67.94463668002926</heading>
+			<longitude>-43.21840534616511</longitude>
+			<latitude>-22.93338202563549</latitude>
+			<altitude>303.3263942587727</altitude>
+			<heading>67.94463668002925</heading>
 			<tilt>80.09296257526579</tilt>
-			<roll>2.951952313733326e-13</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<roll>3.079174500991867e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -1177,27 +1205,28 @@
 			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 18.57.20.png</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-25</leftFov>
-			<rightFov>25</rightFov>
+			<leftFov>-25.0022</leftFov>
+			<rightFov>25.0022</rightFov>
 			<bottomFov>-20.205</bottomFov>
 			<topFov>20.205</topFov>
-			<near>0.733271</near>
+			<near>31.943</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.21840534616509,-22.93338202563548,92.18756759271365</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.21840534616511,-22.93338202563549,303.3263942587727</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ011062</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.21748363173623</longitude>
+			<longitude>-43.21748363173624</longitude>
 			<latitude>-22.94682021905987</latitude>
-			<altitude>17.64171752714451</altitude>
-			<heading>15.85319219255494</heading>
+			<altitude>470.2151183333655</altitude>
+			<heading>15.85319219255492</heading>
 			<tilt>83.99557276513745</tilt>
-			<roll>4.993470849897721e-13</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<roll>5.629581786190424e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -1219,27 +1248,28 @@
 			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 19.00.17.png</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-29.965</leftFov>
-			<rightFov>29.965</rightFov>
+			<leftFov>-29.9674</leftFov>
+			<rightFov>29.9674</rightFov>
 			<bottomFov>-24.68</bottomFov>
 			<topFov>24.68</topFov>
-			<near>1.34718</near>
+			<near>6.11285</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.21748363173623,-22.94682021905987,17.64171752714451</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.21748363173624,-22.94682021905987,470.2151183333655</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ012026</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.21744442408988</longitude>
+			<longitude>-43.21744442408986</longitude>
 			<latitude>-22.94768139008561</latitude>
-			<altitude>21.33383419673394</altitude>
-			<heading>-19.53807127299937</heading>
-			<tilt>83.67247958086097</tilt>
-			<roll>1.545749575191269e-12</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<altitude>473.4366297733641</altitude>
+			<heading>-19.53807127299934</heading>
+			<tilt>83.67247958086091</tilt>
+			<roll>1.599819004776149e-12</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -1262,27 +1292,28 @@
 		</Icon>
 		<rotation>-2.4</rotation>
 		<ViewVolume>
-			<leftFov>-30</leftFov>
-			<rightFov>30</rightFov>
+			<leftFov>-30.0013</leftFov>
+			<rightFov>30.0013</rightFov>
 			<bottomFov>-23.72</bottomFov>
 			<topFov>23.72</topFov>
-			<near>1.35846</near>
+			<near>7.39217</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.21744442408988,-22.94768139008561,21.33383419673394</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.21744442408986,-22.94768139008561,473.4366297733641</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM003016</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.20637481199998</longitude>
-			<latitude>-22.945719458</latitude>
-			<altitude>31.79999999902743</altitude>
+			<longitude>-43.20637481199995</longitude>
+			<latitude>-22.94571945800001</latitude>
+			<altitude>258.0151852620947</altitude>
 			<heading>-140.650906761467</heading>
 			<tilt>97.91000000000001</tilt>
-			<roll>9.923330606166172e-13</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<roll>1.024138607431252e-12</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -1304,15 +1335,445 @@
 			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 19.14.27.png</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-21.5</leftFov>
-			<rightFov>21.5</rightFov>
+			<leftFov>-21.5012</leftFov>
+			<rightFov>21.5012</rightFov>
 			<bottomFov>-27.01</bottomFov>
 			<topFov>27.01</topFov>
-			<near>1.63604</near>
+			<near>11.0187</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.20637481199995,-22.94571945800001,258.0151852620947</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>002095RJ003015</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.25175351501399</longitude>
+			<latitude>-22.98929630799894</latitude>
+			<altitude>54.480532915659</altitude>
+			<heading>108.4894673368473</heading>
+			<tilt>92.35644684778603</tilt>
+			<roll>9.573469591205185e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 19.25.36.png</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-24.9985</leftFov>
+			<rightFov>24.9985</rightFov>
+			<bottomFov>-19.095</bottomFov>
+			<topFov>19.095</topFov>
+			<near>1.02629</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.25175351501399,-22.98929630799894,54.480532915659</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>002095RJ003016</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.24057296906553</longitude>
+			<latitude>-22.98580190739367</latitude>
+			<altitude>0.1162675930738869</altitude>
+			<heading>-57.40287033420679</heading>
+			<tilt>95.99881538289871</tilt>
+			<roll>2.588971510711303e-12</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 19.32.30.png</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-19.13</bottomFov>
+			<topFov>19.13</topFov>
+			<near>0.105</near>
 		</ViewVolume>
 		<Point>
 			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.20637481199998,-22.945719458,31.79999999902743</coordinates>
+			<coordinates>-43.24057296906553,-22.98580190739367,0.1162675930738869</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>002095RJ003017</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.24801390094468</longitude>
+			<latitude>-22.98648523801688</latitude>
+			<altitude>156.0957171693742</altitude>
+			<heading>99.25762105340097</heading>
+			<tilt>92.57793741883198</tilt>
+			<roll>1.558471793917123e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Desktop/backlog/002095RJ003017.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-19.705</bottomFov>
+			<topFov>19.705</topFov>
+			<near>0.640335</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.24801390094468,-22.98648523801688,156.0957171693742</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>002095RJ003019</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.24495224024826</longitude>
+			<latitude>-22.9879506293579</latitude>
+			<altitude>1.583590103027453</altitude>
+			<heading>-54.09921892256357</heading>
+			<tilt>89.70855366303897</tilt>
+			<roll>1.923028604721336e-05</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Desktop/backlog/002095RJ003019.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-35.14</leftFov>
+			<rightFov>35.14</rightFov>
+			<bottomFov>-27.61</bottomFov>
+			<topFov>27.61</topFov>
+			<near>0.548714</near>
+		</ViewVolume>
+		<Point>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.24495224024826,-22.98795062935789,1.583590103027453</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>013RJ012010</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.247429898</longitude>
+			<latitude>-22.99922830400001</latitude>
+			<altitude>43.90999999789661</altitude>
+			<heading>-86.35911175101472</heading>
+			<tilt>94.38</tilt>
+			<roll>1.92860699404868e-05</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Desktop/backlog/013RJ012010.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-20.17</leftFov>
+			<rightFov>20.17</rightFov>
+			<bottomFov>-15.265</bottomFov>
+			<topFov>15.265</topFov>
+			<near>0.367964</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.247429898,-22.99922830400001,43.90999999789661</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>013RJ012034</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.1783286083059</longitude>
+			<latitude>-22.90367360005295</latitude>
+			<altitude>7.788383826454917</altitude>
+			<heading>-16.39748336623366</heading>
+			<tilt>99.63558497937568</tilt>
+			<roll>-7.315275767366089e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 20.05.27.png</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-18.625</bottomFov>
+			<topFov>18.625</topFov>
+			<near>0.428039</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.1783286083059,-22.90367360005295,7.788383826454916</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>013RJ016010</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.20367155833539</longitude>
+			<latitude>-22.9110276444362</latitude>
+			<altitude>8.672660106698833</altitude>
+			<heading>14.04767872936402</heading>
+			<tilt>100.0634060035241</tilt>
+			<roll>-7.779636750859762e-12</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Desktop/backlog/013RJ016010.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-21.5001</leftFov>
+			<rightFov>21.5001</rightFov>
+			<bottomFov>-26.765</bottomFov>
+			<topFov>26.765</topFov>
+			<near>0.407091</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.20367155833539,-22.9110276444362,8.672660106698833</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>013RJ016018</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.19828216209593</longitude>
+			<latitude>-22.91461157005198</latitude>
+			<altitude>9.61186971693509</altitude>
+			<heading>137.6976195864689</heading>
+			<tilt>97.99095638527066</tilt>
+			<roll>-0</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Desktop/backlog/013RJ016018.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-19.68</bottomFov>
+			<topFov>19.68</topFov>
+			<near>0.778195</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.19828216209593,-22.91461157005198,9.61186971693509</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>013RJ017005A</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.19826353513896</longitude>
+			<latitude>-22.91519824127992</latitude>
+			<altitude>14.16599550502811</altitude>
+			<heading>103.1062652892927</heading>
+			<tilt>98.70965154778871</tilt>
+			<roll>-5.041179170119674e-13</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Desktop/backlog/013RJ017005A.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-35.84</leftFov>
+			<rightFov>35.84</rightFov>
+			<bottomFov>-28.315</bottomFov>
+			<topFov>28.315</topFov>
+			<near>0.998949</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.19826353513896,-22.91519824127992,14.16599550502811</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>013RJ017005B</name>
+		<visibility>0</visibility>
+		<Camera>
+			<longitude>-43.19768305756325</longitude>
+			<latitude>-22.914661994213</latitude>
+			<altitude>11.73771825406812</altitude>
+			<heading>-177.2423097545854</heading>
+			<tilt>100.9500082014188</tilt>
+			<roll>2.245471605113243e-12</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-08-12 at 20.26.00.png</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-26.505</leftFov>
+			<rightFov>26.505</rightFov>
+			<bottomFov>-20.255</bottomFov>
+			<topFov>20.255</topFov>
+			<near>0.332357</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.19768305756325,-22.914661994213,11.73771825406812</coordinates>
 		</Point>
 	</PhotoOverlay>
 </Folder>

@@ -3,13 +3,13 @@
 <PhotoOverlay>
 		<name>002080RJN0502</name>
 		<Camera>
-			<longitude>-43.29709348401052</longitude>
-			<latitude>-23.01078397542477</latitude>
-			<altitude>7.347773445477053</altitude>
-			<heading>50.42882283010615</heading>
-			<tilt>96.56516755477776</tilt>
-			<roll>3.053332494204976e-013</roll>
-			<altitudeMode>absolute</altitudeMode>
+			<longitude>-43.29692373599998</longitude>
+			<latitude>-23.01051043499999</latitude>
+			<altitude>1.199999997671462</altitude>
+			<heading>48.94783447561483</heading>
+			<tilt>96.72000000000001</tilt>
+			<roll>4.198332179531842e-13</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -33,13 +33,13 @@
 		<ViewVolume>
 			<leftFov>-22.5</leftFov>
 			<rightFov>22.5</rightFov>
-			<bottomFov>-22.5</bottomFov>
-			<topFov>22.5</topFov>
-			<near>0.636054</near>
+			<bottomFov>-19.23</bottomFov>
+			<topFov>19.23</topFov>
+			<near>0.4158</near>
 		</ViewVolume>
 		<Point>
-			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.29709348401052,-23.01078397542477,7.347773445477053</coordinates>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.29692373599998,-23.01051043499999,1.199999997671462</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

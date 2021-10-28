@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>002080RJN0503</name>
 		<Camera>
-			<longitude>-43.26389881895661</longitude>
-			<latitude>-22.99750307141931</latitude>
-			<altitude>11.06658174874661</altitude>
-			<heading>-93.0034571078419</heading>
-			<tilt>97.16726472621576</tilt>
-			<roll>-1.831999496522986e-012</roll>
+			<longitude>-43.26204920207689</longitude>
+			<latitude>-22.99682073707746</latitude>
+			<altitude>7.870627136731579</altitude>
+			<heading>-96.80491759005022</heading>
+			<tilt>96.04921789195973</tilt>
+			<roll>2.414645308620288e-10</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -33,13 +33,13 @@
 		<ViewVolume>
 			<leftFov>-22.5</leftFov>
 			<rightFov>22.5</rightFov>
-			<bottomFov>-22.5</bottomFov>
-			<topFov>22.5</topFov>
-			<near>0.509695</near>
+			<bottomFov>-19.2</bottomFov>
+			<topFov>19.2</topFov>
+			<near>0.274336</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.26389881895661,-22.99750307141931,11.06658174874661</coordinates>
+			<coordinates>-43.26204920207689,-22.99682073707746,7.870627136731579</coordinates>
 		</Point>
 	</PhotoOverlay>
 

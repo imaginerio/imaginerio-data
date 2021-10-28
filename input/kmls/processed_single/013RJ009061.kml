@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
 		<name>013RJ009061</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.24813518751559</longitude>
 			<latitude>-22.91630104902183</latitude>

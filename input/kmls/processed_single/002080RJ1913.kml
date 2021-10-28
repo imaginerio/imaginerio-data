@@ -3,12 +3,12 @@
 <PhotoOverlay>
 		<name>002080RJ1913</name>
 		<Camera>
-			<longitude>-43.17596727142352</longitude>
-			<latitude>-22.92056384640741</latitude>
-			<altitude>9.327480859558051</altitude>
-			<heading>150.6147865503953</heading>
-			<tilt>94.53014927743604</tilt>
-			<roll>-7.350261868862187e-012</roll>
+			<longitude>-43.17647332786419</longitude>
+			<latitude>-22.92052161945098</latitude>
+			<altitude>8.416885711442566</altitude>
+			<heading>134.2172593596964</heading>
+			<tilt>94.24965101423122</tilt>
+			<roll>-7.308755630269087e-10</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -30,17 +30,18 @@
 		<Icon>
 			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/002080RJ1913/full/max/0/default.jpg</href>
 		</Icon>
-		<rotation>-4.21</rotation>
+		<rotation>-1.57</rotation>
 		<ViewVolume>
-			<leftFov>-25</leftFov>
-			<rightFov>25</rightFov>
-			<bottomFov>-25</bottomFov>
-			<topFov>25</topFov>
-			<near>0.929536</near>
+			<leftFov>-21.5</leftFov>
+			<rightFov>21.5</rightFov>
+			<bottomFov>-21.175</bottomFov>
+			<topFov>21.175</topFov>
+			<near>0.221291</near>
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17596727142352,-22.92056384640741,9.327480859558051</coordinates>
+			<coordinates>-43.17647332786419,-22.92052161945098,8.416885711442566</coordinates>
 		</Point>
 	</PhotoOverlay>
+
 </kml>

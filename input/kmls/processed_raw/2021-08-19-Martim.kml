@@ -2,8 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>2021-08-19-Martim</name>
+	<visibility>0</visibility>
 	<PhotoOverlay>
 		<name>014AM012021</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17567051122778</longitude>
 			<latitude>-22.9117109378055</latitude>
@@ -46,6 +48,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001012</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17241051007738</longitude>
 			<latitude>-22.92251144017965</latitude>
@@ -88,6 +91,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001020</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17299750492985</longitude>
 			<latitude>-22.92547505803396</latitude>
@@ -130,6 +134,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001021</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.1730382793252</longitude>
 			<latitude>-22.92563299524354</latitude>
@@ -172,6 +177,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001022</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17437864126033</longitude>
 			<latitude>-22.92057909139645</latitude>
@@ -214,6 +220,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001024</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.1738201723084</longitude>
 			<latitude>-22.92842010318735</latitude>
@@ -256,6 +263,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001026</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17451962164117</longitude>
 			<latitude>-22.9207320547016</latitude>
@@ -299,6 +307,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>002095RJ001035</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18287868369273</longitude>
 			<latitude>-22.93738543795186</latitude>
@@ -341,6 +350,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM001005</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18538880934901</longitude>
 			<latitude>-22.91040263503236</latitude>
@@ -383,6 +393,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM004002</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18220412525663</longitude>
 			<latitude>-22.90413229123201</latitude>
@@ -425,6 +436,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM009001</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.1822378672718</longitude>
 			<latitude>-22.94748604793617</latitude>
@@ -467,6 +479,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ017008</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18172012009561</longitude>
 			<latitude>-22.9501369828493</latitude>
@@ -509,6 +522,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM009017</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17767551090003</longitude>
 			<latitude>-22.94083787759359</latitude>
@@ -552,6 +566,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM007003</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17702154723301</longitude>
 			<latitude>-22.90679137119069</latitude>
@@ -594,6 +609,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM007006</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17739122945118</longitude>
 			<latitude>-22.90572245533394</latitude>
@@ -636,6 +652,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>014AM007007</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17850462666667</longitude>
 			<latitude>-22.90292803561836</latitude>
@@ -678,6 +695,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ017001</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17570577869886</longitude>
 			<latitude>-22.92997161554965</latitude>
@@ -720,6 +738,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ012063</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18759112700982</longitude>
 			<latitude>-22.91014948876784</latitude>
@@ -762,6 +781,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ012051</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18038821305781</longitude>
 			<latitude>-22.89680951944329</latitude>
@@ -804,6 +824,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>0071824cx108-04</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.16086152648391</longitude>
 			<latitude>-22.81459110337539</latitude>
@@ -846,6 +867,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>0071824cx071-06</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.16094089675452</longitude>
 			<latitude>-22.81461471184618</latitude>

@@ -909,7 +909,7 @@
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.18178355995145,-22.90667392020754,15.95090790524789</coordinates>
+			<coordinates>-43.18178355995145,-22.90667392020753,15.95090790524789</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
@@ -1777,7 +1777,7 @@
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.21820363499999,-22.87281990699999,392.7949035301241</coordinates>
+			<coordinates>-43.21820363499999,-22.87281990699999,392.794903530124</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>

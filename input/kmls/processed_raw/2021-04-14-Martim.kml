@@ -93,13 +93,13 @@
 		<name>014GLAS060</name>
 		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.20208017258168</longitude>
-			<latitude>-22.95821616140251</latitude>
-			<altitude>75.63613979206141</altitude>
-			<heading>72.19926663888363</heading>
-			<tilt>88.82260233045984</tilt>
-			<roll>1.152951072030525e-14</roll>
-			<altitudeMode>absolute</altitudeMode>
+			<longitude>-43.20207720301193</longitude>
+			<latitude>-22.95821900118635</latitude>
+			<altitude>263.185075886925</altitude>
+			<heading>72.23553628639976</heading>
+			<tilt>88.99955848546692</tilt>
+			<roll>2.027603609432992e-14</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -121,15 +121,15 @@
 			<href>/Users/martimpassos/Desktop/backlog/Botafogo/014GLAS060.jpg</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-25</leftFov>
-			<rightFov>25</rightFov>
+			<leftFov>-25.0007</leftFov>
+			<rightFov>25.0007</rightFov>
 			<bottomFov>-20.435</bottomFov>
 			<topFov>20.435</topFov>
-			<near>0.744115</near>
+			<near>91.1936</near>
 		</ViewVolume>
 		<Point>
-			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.20208017258168,-22.9582161614025,75.63613979206141</coordinates>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.20207720301193,-22.95821900118635,263.185075886925</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>

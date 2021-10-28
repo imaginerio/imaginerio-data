@@ -2,8 +2,10 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>2021-08-17-Martim</name>
+	<visibility>0</visibility>
 	<PhotoOverlay>
 		<name>001AN16001010</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17436882104474</longitude>
 			<latitude>-22.89610990538343</latitude>
@@ -46,6 +48,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>001AN16001011</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.17419279903752</longitude>
 			<latitude>-22.89607533213306</latitude>
@@ -88,6 +91,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ001006</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.1804139854365</longitude>
 			<latitude>-22.89690231711346</latitude>
@@ -130,6 +134,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ001007</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.1815015972012</longitude>
 			<latitude>-22.89549026603981</latitude>
@@ -172,6 +177,7 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ004042</name>
+		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.22755441454246</longitude>
 			<latitude>-22.98949681459904</latitude>

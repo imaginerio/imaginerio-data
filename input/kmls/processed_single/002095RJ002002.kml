@@ -2,13 +2,14 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <PhotoOverlay>
 		<name>002095RJ002002</name>
+		<visibility>0</visibility>
 		<Camera>
-			<longitude>-43.1735293401445</longitude>
-			<latitude>-22.90554592087203</latitude>
-			<altitude>39.83490198973077</altitude>
-			<heading>-67.34213737143803</heading>
-			<tilt>89.41166626244811</tilt>
-			<roll>-5.804838936636703e-08</roll>
+			<longitude>-43.17352934014448</longitude>
+			<latitude>-22.90554592087204</latitude>
+			<altitude>39.83490198831454</altitude>
+			<heading>-67.34213737143796</heading>
+			<tilt>89.41166626244814</tilt>
+			<roll>-5.804838618581236e-08</roll>
 			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
@@ -39,7 +40,7 @@
 		</ViewVolume>
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.1735293401445,-22.90554592087203,39.83490198973077</coordinates>
+			<coordinates>-43.17352934014448,-22.90554592087204,39.83490198831454</coordinates>
 		</Point>
 	</PhotoOverlay>
 
