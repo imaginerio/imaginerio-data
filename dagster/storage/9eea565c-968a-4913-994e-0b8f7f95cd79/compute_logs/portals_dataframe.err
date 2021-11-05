@@ -1,8 +1,0 @@
-[32m2021-07-01 16:28:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - LOGS_CAPTURED - Started capturing logs for solid: portals_dataframe.
-[32m2021-07-01 16:28:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - STEP_START - Started execution of step "portals_dataframe".
-[32m2021-07-01 16:28:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - LOADED_INPUT - Loaded input "results" using input manager "io_manager", from output "result" of step "query_portals"
-[32m2021-07-01 16:28:46[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - STEP_INPUT - Got input "results" of type "Any". (Type check passed).
-[32m2021-07-01 16:28:47[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - STEP_OUTPUT - Yielded output "api_portals" of type "Any". (Type check passed).
-[32m2021-07-01 16:28:48[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - ASSET_MATERIALIZATION - The API_PORTALS was saved as csv
-[32m2021-07-01 16:28:48[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - HANDLED_OUTPUT - Handled output "api_portals" using IO manager "pandas_csv"
-[32m2021-07-01 16:28:49[0m - dagster - [34mDEBUG[0m - apis_pipeline - 9eea565c-968a-4913-994e-0b8f7f95cd79 - 8858 - portals_dataframe - STEP_SUCCESS - Finished execution of step "portals_dataframe" in 2.29s.

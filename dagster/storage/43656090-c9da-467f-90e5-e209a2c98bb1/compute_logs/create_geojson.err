@@ -1,9 +1,0 @@
-[32m2021-06-07 11:22:41[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
-[32m2021-06-07 11:22:41[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - STEP_START - Started execution of step "create_geojson".
-[32m2021-06-07 11:22:42[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
-[32m2021-06-07 11:22:42[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
-[32m2021-06-07 11:22:42[0m - dagster - [34mINFO[0m - system - 43656090-c9da-467f-90e5-e209a2c98bb1 - create_geojson - {"features": [], "type": "FeatureCollection"}
-[32m2021-06-07 11:22:43[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - STEP_OUTPUT - Yielded output "camera" of type "Any". (Type check passed).
-[32m2021-06-07 11:22:43[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - ASSET_MATERIALIZATION - saved geojson
-[32m2021-06-07 11:22:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - HANDLED_OUTPUT - Handled output "camera" using IO manager "geojson"
-[32m2021-06-07 11:22:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - 43656090-c9da-467f-90e5-e209a2c98bb1 - 553 - create_geojson - STEP_SUCCESS - Finished execution of step "create_geojson" in 2.15s.

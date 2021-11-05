@@ -1,7 +1,0 @@
-[32m2021-06-08 16:25:43[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - LOGS_CAPTURED - Started capturing logs for solid: extract_dimensions.
-[32m2021-06-08 16:25:43[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - STEP_START - Started execution of step "extract_dimensions".
-[32m2021-06-08 16:25:43[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "organize_columns"
-[32m2021-06-08 16:25:44[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-06-08 16:25:44[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-06-08 16:25:45[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-06-08 16:25:45[0m - dagster - [34mDEBUG[0m - calatog_main - a8e09c05-5d3d-40ed-9648-d53e4b9e6fc0 - 5060 - extract_dimensions - STEP_SUCCESS - Finished execution of step "extract_dimensions" in 771ms.

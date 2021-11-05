@@ -1,9 +1,0 @@
-[32m2021-07-15 18:56:07[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - LOGS_CAPTURED - Started capturing logs for solid: create_feature.
-[32m2021-07-15 18:56:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - STEP_START - Started execution of step "create_feature".
-[32m2021-07-15 18:56:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "correct_altitude_mode"
-[32m2021-07-15 18:56:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
-[32m2021-07-15 18:56:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
-[32m2021-07-15 18:56:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - STEP_INPUT - Got input "metadata" of type "Any". (Type check passed).
-[32m2021-07-15 18:56:43[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-15 18:56:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-15 18:56:44[0m - dagster - [34mDEBUG[0m - camera_pipeline - bf08f2fe-ce09-4d86-8988-f86cea4eca82 - 18229 - create_feature - STEP_SUCCESS - Finished execution of step "create_feature" in 34.95s.

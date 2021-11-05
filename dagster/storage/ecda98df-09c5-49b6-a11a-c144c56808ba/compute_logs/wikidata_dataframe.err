@@ -1,8 +1,0 @@
-[32m2021-07-16 16:11:21[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - LOGS_CAPTURED - Started capturing logs for solid: wikidata_dataframe.
-[32m2021-07-16 16:11:21[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - STEP_START - Started execution of step "wikidata_dataframe".
-[32m2021-07-16 16:11:21[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - LOADED_INPUT - Loaded input "results" using input manager "io_manager", from output "result" of step "query_wikidata"
-[32m2021-07-16 16:11:21[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - STEP_INPUT - Got input "results" of type "Any". (Type check passed).
-[32m2021-07-16 16:11:22[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - STEP_OUTPUT - Yielded output "api_wikidata" of type "Any". (Type check passed).
-[32m2021-07-16 16:11:22[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - ASSET_MATERIALIZATION -  API_WIKIDATA was saved <----------------------
-[32m2021-07-16 16:11:22[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - HANDLED_OUTPUT - Handled output "api_wikidata" using IO manager "pandas_csv"
-[32m2021-07-16 16:11:23[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - wikidata_dataframe - STEP_SUCCESS - Finished execution of step "wikidata_dataframe" in 1.1s.

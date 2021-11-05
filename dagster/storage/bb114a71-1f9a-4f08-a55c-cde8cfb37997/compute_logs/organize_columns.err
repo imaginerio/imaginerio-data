@@ -1,9 +1,0 @@
-[32m2021-06-08 16:28:33[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - LOGS_CAPTURED - Started capturing logs for solid: organize_columns.
-[32m2021-06-08 16:28:34[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - STEP_START - Started execution of step "organize_columns".
-[32m2021-06-08 16:28:34[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "xml_to_df"
-[32m2021-06-08 16:28:35[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-/mnt/d/IMS/situated-views/bin/solids/catalog_new.py:103: FutureWarning: The default value of regex will change from True to False in a future version.
-  catalog_df["creator"] = catalog_df["creator"].str.replace(r"(.+),\s+(.+)", r"\2 \1")
-[32m2021-06-08 16:28:35[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-06-08 16:28:35[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-06-08 16:28:36[0m - dagster - [34mDEBUG[0m - calatog_main - bb114a71-1f9a-4f08-a55c-cde8cfb37997 - 5111 - organize_columns - STEP_SUCCESS - Finished execution of step "organize_columns" in 824ms.

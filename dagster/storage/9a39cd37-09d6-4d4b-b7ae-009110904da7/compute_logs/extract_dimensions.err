@@ -1,7 +1,0 @@
-[32m2021-07-16 16:07:54[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - LOGS_CAPTURED - Started capturing logs for solid: extract_dimensions.
-[32m2021-07-16 16:07:54[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - STEP_START - Started execution of step "extract_dimensions".
-[32m2021-07-16 16:07:55[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "organize_columns"
-[32m2021-07-16 16:07:55[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-07-16 16:07:55[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-16 16:07:55[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-16 16:07:55[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 9a39cd37-09d6-4d4b-b7ae-009110904da7 - 11793 - extract_dimensions - STEP_SUCCESS - Finished execution of step "extract_dimensions" in 350ms.

@@ -1,5 +1,0 @@
-[32m2021-07-16 16:09:06[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - query_portals - LOGS_CAPTURED - Started capturing logs for solid: query_portals.
-[32m2021-07-16 16:09:06[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - query_portals - STEP_START - Started execution of step "query_portals".
-[32m2021-07-16 16:11:07[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - query_portals - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-16 16:11:08[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - query_portals - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-16 16:11:08[0m - dagster - [34mDEBUG[0m - apis_pipeline - ecda98df-09c5-49b6-a11a-c144c56808ba - 11988 - query_portals - STEP_SUCCESS - Finished execution of step "query_portals" in 2m1s.

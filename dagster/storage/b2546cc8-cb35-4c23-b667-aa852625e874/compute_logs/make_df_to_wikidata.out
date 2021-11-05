@@ -1,3 +1,0 @@
-Empty DataFrame
-Columns: [id, Title, creator, date, date_circa, date_created, date_accuracy, First Year, Last Year, description, type, fabrication_method, image_width, image_height, source, portals_id, portals_url, wikidata_depict, wikidata_id, wikidata_image, wikidata_ims_id, Media URL, img_sd, omeka_url, latitude, longitude, altitude, heading, tilt, fov, geometry]
-Index: []

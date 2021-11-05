@@ -1,7 +1,0 @@
-[32m2021-07-23 16:44:16[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - LOGS_CAPTURED - Started capturing logs for solid: xml_to_df.
-[32m2021-07-23 16:44:17[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - STEP_START - Started execution of step "xml_to_df".
-[32m2021-07-23 16:44:17[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - LOADED_INPUT - Loaded input "root" using input manager "cumulus_root"
-[32m2021-07-23 16:44:17[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - STEP_INPUT - Got input "root" of type "Any". (Type check passed).
-[32m2021-07-23 16:44:18[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-23 16:44:18[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-23 16:44:18[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 41b1fe32-7663-4f71-8b38-ad6f41b19fd8 - 1254 - xml_to_df - STEP_SUCCESS - Finished execution of step "xml_to_df" in 443ms.

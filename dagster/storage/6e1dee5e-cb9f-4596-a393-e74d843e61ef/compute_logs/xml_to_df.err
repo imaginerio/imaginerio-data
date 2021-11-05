@@ -1,7 +1,0 @@
-[32m2021-06-08 11:34:20[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - LOGS_CAPTURED - Started capturing logs for solid: xml_to_df.
-[32m2021-06-08 11:34:20[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - STEP_START - Started execution of step "xml_to_df".
-[32m2021-06-08 11:34:21[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - LOADED_INPUT - Loaded input "root" using input manager "xml"
-[32m2021-06-08 11:34:22[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - STEP_INPUT - Got input "root" of type "Any". (Type check passed).
-[32m2021-06-08 11:34:22[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-06-08 11:34:22[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-06-08 11:34:23[0m - dagster - [34mDEBUG[0m - calatog_main - 6e1dee5e-cb9f-4596-a393-e74d843e61ef - 3833 - xml_to_df - STEP_SUCCESS - Finished execution of step "xml_to_df" in 899ms.

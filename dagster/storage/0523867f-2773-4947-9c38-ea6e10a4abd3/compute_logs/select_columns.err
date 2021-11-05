@@ -1,8 +1,0 @@
-[32m2021-07-23 18:02:28[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - LOGS_CAPTURED - Started capturing logs for solid: select_columns.
-[32m2021-07-23 18:02:29[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - STEP_START - Started execution of step "select_columns".
-[32m2021-07-23 18:02:29[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - LOADED_INPUT - Loaded input "df_cumulus" using input manager "io_manager", from output "result" of step "create_columns"
-[32m2021-07-23 18:02:29[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - STEP_INPUT - Got input "df_cumulus" of type "Any". (Type check passed).
-[32m2021-07-23 18:02:29[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - STEP_OUTPUT - Yielded output "cumulus" of type "Any". (Type check passed).
-[32m2021-07-23 18:02:30[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - ASSET_MATERIALIZATION -  CUMULUS was saved <----------------------
-[32m2021-07-23 18:02:30[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - HANDLED_OUTPUT - Handled output "cumulus" using IO manager "pandas_csv"
-[32m2021-07-23 18:02:31[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 0523867f-2773-4947-9c38-ea6e10a4abd3 - 1976 - select_columns - STEP_SUCCESS - Finished execution of step "select_columns" in 1.32s.

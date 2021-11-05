@@ -1,5 +1,0 @@
-ERROR: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all(). no ID: 002029FPF004001
-OK: 0071824CX021-11
-OK: 0071824CX127-10
-ERROR: '007A5P4F01-36' no ID: 007A5P4F01-36
-ERROR: '007A5P4F01-37' no ID: 007A5P4F01-37

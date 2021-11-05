@@ -1,8 +1,0 @@
-[32m2021-07-15 16:32:01[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - LOGS_CAPTURED - Started capturing logs for solid: dates_accuracy.
-[32m2021-07-15 16:32:01[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - STEP_START - Started execution of step "dates_accuracy".
-[32m2021-07-15 16:32:01[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
-[32m2021-07-15 16:32:02[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-07-15 16:32:06[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - STEP_OUTPUT - Yielded output "cumulus" of type "Any". (Type check passed).
-[32m2021-07-15 16:32:06[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - ASSET_MATERIALIZATION -  CUMULUS was saved <----------------------
-[32m2021-07-15 16:32:07[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - HANDLED_OUTPUT - Handled output "cumulus" using IO manager "pandas_csv"
-[32m2021-07-15 16:32:07[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - fc3cbf10-c42d-438a-a693-c323dc27b3f9 - 6904 - dates_accuracy - STEP_SUCCESS - Finished execution of step "dates_accuracy" in 5.53s.

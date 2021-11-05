@@ -1,8 +1,0 @@
-[32m2021-07-23 12:23:33[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - LOGS_CAPTURED - Started capturing logs for solid: creators_list.
-[32m2021-07-23 12:23:33[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - STEP_START - Started execution of step "creators_list".
-[32m2021-07-23 12:23:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
-[32m2021-07-23 12:23:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-07-23 12:23:34[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - STEP_OUTPUT - Yielded output "creators" of type "Any". (Type check passed).
-[32m2021-07-23 12:23:35[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - ASSET_MATERIALIZATION -  CREATORS was saved <----------------------
-[32m2021-07-23 12:23:36[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - HANDLED_OUTPUT - Handled output "creators" using IO manager "pandas_csv"
-[32m2021-07-23 12:23:36[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 80fc7f7b-e1a9-44c8-b937-e0e95158ee5e - 1244 - creators_list - STEP_SUCCESS - Finished execution of step "creators_list" in 2.08s.

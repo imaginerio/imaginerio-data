@@ -1,7 +1,0 @@
-[32m2021-06-22 13:00:05[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - LOGS_CAPTURED - Started capturing logs for solid: xml_to_df.
-[32m2021-06-22 13:00:05[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - STEP_START - Started execution of step "xml_to_df".
-[32m2021-06-22 13:00:06[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - LOADED_INPUT - Loaded input "root" using input manager "xml"
-[32m2021-06-22 13:00:06[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - STEP_INPUT - Got input "root" of type "Any". (Type check passed).
-[32m2021-06-22 13:00:07[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-06-22 13:00:07[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-06-22 13:00:08[0m - dagster - [34mDEBUG[0m - catalog_pipeline - 40e9b6bd-13f4-4c99-b4af-c73d93162236 - 1695 - xml_to_df - STEP_SUCCESS - Finished execution of step "xml_to_df" in 832ms.

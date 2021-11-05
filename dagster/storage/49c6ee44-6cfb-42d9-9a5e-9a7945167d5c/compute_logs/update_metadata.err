@@ -1,3 +1,0 @@
-[32m2021-07-15 16:59:48[0m - dagster - [34mDEBUG[0m - camera_pipeline - 49c6ee44-6cfb-42d9-9a5e-9a7945167d5c - 11176 - update_metadata - LOGS_CAPTURED - Started capturing logs for solid: update_metadata.
-[32m2021-07-15 16:59:49[0m - dagster - [34mDEBUG[0m - camera_pipeline - 49c6ee44-6cfb-42d9-9a5e-9a7945167d5c - 11176 - update_metadata - STEP_START - Started execution of step "update_metadata".
-malloc_consolidate(): invalid chunk size

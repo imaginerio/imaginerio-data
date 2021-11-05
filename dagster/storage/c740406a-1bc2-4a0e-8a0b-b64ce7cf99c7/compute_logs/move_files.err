@@ -1,7 +1,0 @@
-[32m2021-07-16 19:05:01[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - LOGS_CAPTURED - Started capturing logs for solid: move_files.
-[32m2021-07-16 19:05:01[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - STEP_START - Started execution of step "move_files".
-[32m2021-07-16 19:05:01[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - LOADED_INPUT - Loaded input "new_features" using input manager "io_manager", from output "result" of step "create_feature"
-[32m2021-07-16 19:05:02[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - STEP_INPUT - Got input "new_features" of type "Any". (Type check passed).
-[32m2021-07-16 19:05:02[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-16 19:05:02[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-16 19:05:02[0m - dagster - [34mDEBUG[0m - camera_pipeline - c740406a-1bc2-4a0e-8a0b-b64ce7cf99c7 - 1361 - move_files - STEP_SUCCESS - Finished execution of step "move_files" in 444ms.

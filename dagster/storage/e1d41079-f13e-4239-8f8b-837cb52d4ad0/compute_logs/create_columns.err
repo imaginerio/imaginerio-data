@@ -1,7 +1,0 @@
-[32m2021-07-23 17:29:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - LOGS_CAPTURED - Started capturing logs for solid: create_columns.
-[32m2021-07-23 17:29:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - STEP_START - Started execution of step "create_columns".
-[32m2021-07-23 17:29:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - LOADED_INPUT - Loaded input "df_cumulus" using input manager "io_manager", from output "result" of step "format_date"
-[32m2021-07-23 17:29:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - STEP_INPUT - Got input "df_cumulus" of type "Any". (Type check passed).
-[32m2021-07-23 17:29:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-23 17:29:26[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-23 17:29:26[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - e1d41079-f13e-4239-8f8b-837cb52d4ad0 - 1571 - create_columns - STEP_SUCCESS - Finished execution of step "create_columns" in 420ms.

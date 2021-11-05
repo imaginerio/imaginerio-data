@@ -1,7 +1,0 @@
-[32m2021-06-25 15:26:30[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - LOGS_CAPTURED - Started capturing logs for solid: make_df_to_wikidata.
-[32m2021-06-25 15:26:30[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - STEP_START - Started execution of step "make_df_to_wikidata".
-[32m2021-06-25 15:26:31[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "load_metadata"
-[32m2021-06-25 15:26:31[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-06-25 15:26:31[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-06-25 15:26:32[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-06-25 15:26:32[0m - dagster - [34mDEBUG[0m - export_pipeline - 6511fcda-6712-4148-a2c5-d257e574294e - 11940 - make_df_to_wikidata - STEP_SUCCESS - Finished execution of step "make_df_to_wikidata" in 723ms.

@@ -1,7 +1,0 @@
-[32m2021-07-16 11:10:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - LOGS_CAPTURED - Started capturing logs for solid: correct_altitude_mode.
-[32m2021-07-16 11:10:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - STEP_START - Started execution of step "correct_altitude_mode".
-[32m2021-07-16 11:10:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "change_img_href"
-[32m2021-07-16 11:10:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
-[32m2021-07-16 11:10:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-16 11:10:28[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-16 11:10:28[0m - dagster - [34mDEBUG[0m - camera_pipeline - 75d19844-63d3-44ba-9112-cf9ae39ada86 - 23726 - correct_altitude_mode - STEP_SUCCESS - Finished execution of step "correct_altitude_mode" in 375ms.

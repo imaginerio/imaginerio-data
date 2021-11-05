@@ -1,7 +1,0 @@
-[32m2021-07-23 17:54:31[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - LOGS_CAPTURED - Started capturing logs for solid: organize_columns.
-[32m2021-07-23 17:54:32[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - STEP_START - Started execution of step "organize_columns".
-[32m2021-07-23 17:54:32[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "xml_to_df"
-[32m2021-07-23 17:54:32[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-07-23 17:54:32[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-23 17:54:32[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-23 17:54:32[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - d6f8bbf6-ef06-4963-ba69-2da53316bf97 - 1784 - organize_columns - STEP_SUCCESS - Finished execution of step "organize_columns" in 397ms.

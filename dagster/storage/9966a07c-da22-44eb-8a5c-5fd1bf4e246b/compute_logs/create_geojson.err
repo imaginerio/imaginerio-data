@@ -1,8 +1,0 @@
-[32m2021-07-16 10:22:58[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
-[32m2021-07-16 10:22:58[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - STEP_START - Started execution of step "create_geojson".
-[32m2021-07-16 10:22:59[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - LOADED_INPUT - Loaded input "new_features" using input manager "io_manager", from output "result" of step "create_feature"
-[32m2021-07-16 10:22:59[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - STEP_INPUT - Got input "new_features" of type "Any". (Type check passed).
-[32m2021-07-16 10:23:02[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - STEP_OUTPUT - Yielded output "import_viewcones" of type "Any". (Type check passed).
-[32m2021-07-16 10:23:07[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - ASSET_MATERIALIZATION -  IMPORT_VIEWCONES was saved <----------------------
-[32m2021-07-16 10:23:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - HANDLED_OUTPUT - Handled output "import_viewcones" using IO manager "geojson"
-[32m2021-07-16 10:23:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9966a07c-da22-44eb-8a5c-5fd1bf4e246b - 2323 - create_geojson - STEP_SUCCESS - Finished execution of step "create_geojson" in 8.97s.

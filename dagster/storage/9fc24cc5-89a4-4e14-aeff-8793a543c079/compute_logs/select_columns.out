@@ -1,6 +1,0 @@
-Index(['Source ID', 'Title', 'Description (Portuguese)', 'Creator', 'Date',
-       'First Year', 'Last Year', 'Materials', 'Fabrication Method', 'format',
-       'dimensions', 'width', 'height', 'date_copy', 'Description (English)',
-       'Type (Artstor Classification)', 'Item Set (text field)', 'Source',
-       'License', 'Rights', 'Attribution', 'Smapshot ID'],
-      dtype='object')

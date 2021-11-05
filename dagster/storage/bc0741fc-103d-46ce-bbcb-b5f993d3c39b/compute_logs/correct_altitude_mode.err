@@ -1,7 +1,0 @@
-[32m2021-06-08 23:03:51[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - LOGS_CAPTURED - Started capturing logs for solid: correct_altitude_mode.
-[32m2021-06-08 23:03:52[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - STEP_START - Started execution of step "correct_altitude_mode".
-[32m2021-06-08 23:03:53[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "change_img_href"
-[32m2021-06-08 23:03:53[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - STEP_INPUT - Got input "kmls" of type "Any". (Type check passed).
-[32m2021-06-08 23:04:07[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-06-08 23:04:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-06-08 23:04:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - bc0741fc-103d-46ce-bbcb-b5f993d3c39b - 6544 - correct_altitude_mode - STEP_SUCCESS - Finished execution of step "correct_altitude_mode" in 14.66s.

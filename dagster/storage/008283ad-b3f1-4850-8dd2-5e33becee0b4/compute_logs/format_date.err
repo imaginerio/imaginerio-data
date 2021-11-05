@@ -1,7 +1,0 @@
-[32m2021-07-23 12:21:21[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - LOGS_CAPTURED - Started capturing logs for solid: format_date.
-[32m2021-07-23 12:21:21[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - STEP_START - Started execution of step "format_date".
-[32m2021-07-23 12:21:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - LOADED_INPUT - Loaded input "df" using input manager "io_manager", from output "result" of step "extract_dimensions"
-[32m2021-07-23 12:21:22[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - STEP_INPUT - Got input "df" of type "Any". (Type check passed).
-[32m2021-07-23 12:21:24[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-07-23 12:21:24[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-07-23 12:21:25[0m - dagster - [34mDEBUG[0m - cumulus_pipeline - 008283ad-b3f1-4850-8dd2-5e33becee0b4 - 1156 - format_date - STEP_SUCCESS - Finished execution of step "format_date" in 2.74s.
