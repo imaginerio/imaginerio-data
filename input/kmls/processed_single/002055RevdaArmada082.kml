@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<PhotoOverlay>
+		<name>002055RevdaArmada082</name>
+		<Camera>
+			<longitude>-43.15256651619747</longitude>
+			<latitude>-22.93918314499079</latitude>
+			<altitude>39.85077095531589</altitude>
+			<heading>139.1513437665455</heading>
+			<tilt>82.14237015739529</tilt>
+			<roll>-0.02365881671110323</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/002055RevdaArmada082/full/max/0/default.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-22.5027</leftFov>
+			<rightFov>22.5027</rightFov>
+			<bottomFov>-17.255</bottomFov>
+			<topFov>17.255</topFov>
+			<near>1.78699</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.15256651619747,-22.93918314499079,39.85077095531589</coordinates>
+		</Point>
+	</PhotoOverlay>
+</kml>
