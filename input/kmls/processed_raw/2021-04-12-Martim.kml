@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>2021-04-12-Martim</name>
-	<visibility>0</visibility>
+	<open>1</open>
 	<PhotoOverlay>
 		<name>037SL03119</name>
 		<visibility>0</visibility>
@@ -307,7 +307,6 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ007036</name>
-		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.188960873</longitude>
 			<latitude>-22.90460501700001</latitude>
@@ -350,7 +349,6 @@
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>013RJ007031</name>
-		<visibility>0</visibility>
 		<Camera>
 			<longitude>-43.18983935147284</longitude>
 			<latitude>-22.90636949463285</latitude>
@@ -392,16 +390,15 @@
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
-		<name>013RJ007031</name>
-		<visibility>0</visibility>
+		<name>013RJ007017</name>
 		<Camera>
 			<longitude>-43.18935215339037</longitude>
 			<latitude>-22.90553854796573</latitude>
-			<altitude>10.67780754228279</altitude>
+			<altitude>3.129439911572877</altitude>
 			<heading>76.69954901478184</heading>
 			<tilt>98.21661718279535</tilt>
-			<roll>1.009452396189595e-10</roll>
-			<altitudeMode>absolute</altitudeMode>
+			<roll>1.009412639256076e-10</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -423,15 +420,15 @@
 			<href>/Users/martimpassos/Pictures/Screenshots/Screen Shot 2021-04-12 at 19.06.17.png</href>
 		</Icon>
 		<ViewVolume>
-			<leftFov>-21.495</leftFov>
-			<rightFov>21.495</rightFov>
+			<leftFov>-21.4971</leftFov>
+			<rightFov>21.4971</rightFov>
 			<bottomFov>-17.26</bottomFov>
 			<topFov>17.26</topFov>
-			<near>1.06832</near>
+			<near>1.08435</near>
 		</ViewVolume>
 		<Point>
-			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.18935215339037,-22.90553854796573,10.67780754228279</coordinates>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.18935215339037,-22.90553854796573,3.129439911572877</coordinates>
 		</Point>
 	</PhotoOverlay>
 </Folder>
