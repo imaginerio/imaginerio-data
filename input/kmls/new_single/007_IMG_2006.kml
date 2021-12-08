@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
-<PhotoOverlay>
-		<name>007_IMG_2006</name>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2"
+	xmlns:kml="http://www.opengis.net/kml/2.2"
+	xmlns:atom="http://www.w3.org/2005/Atom">
+	<PhotoOverlay>
+		<name>007CX025-06</name>
 		<Camera>
 			<longitude>-43.1794034878239</longitude>
 			<latitude>-22.89990888377955</latitude>
@@ -28,7 +31,7 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007_IMG_2006/full/max/0/default.jpg</href>
+			<href>https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007CX025-06/full/max/0/default.jpg</href>
 		</Icon>
 		<ViewVolume>
 			<leftFov>-28.2</leftFov>
