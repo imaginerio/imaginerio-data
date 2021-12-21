@@ -1,0 +1,5 @@
+[32m2021-12-21 18:05:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - 31098349-7c64-4b11-a8a2-2a14d80a904f - 5158 - get_list - LOGS_CAPTURED - Started capturing logs for solid: get_list.
+[32m2021-12-21 18:05:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - 31098349-7c64-4b11-a8a2-2a14d80a904f - 5158 - get_list - STEP_START - Started execution of step "get_list".
+[32m2021-12-21 18:05:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - 31098349-7c64-4b11-a8a2-2a14d80a904f - 5158 - get_list - STEP_OUTPUT - Yielded output "result" of type "type_list_of_kmls". (Type check passed).
+[32m2021-12-21 18:05:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - 31098349-7c64-4b11-a8a2-2a14d80a904f - 5158 - get_list - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-12-21 18:05:11[0m - dagster - [34mDEBUG[0m - camera_pipeline - 31098349-7c64-4b11-a8a2-2a14d80a904f - 5158 - get_list - STEP_SUCCESS - Finished execution of step "get_list" in 443ms.
