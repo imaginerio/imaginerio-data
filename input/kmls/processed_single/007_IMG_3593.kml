@@ -3,13 +3,13 @@
 <PhotoOverlay>
 		<name>007_IMG_3593</name>
 		<Camera>
-			<longitude>-43.16351706524809</longitude>
-			<latitude>-22.95003754783365</latitude>
-			<altitude>66.49170333613498</altitude>
-			<heading>80.80857225014508</heading>
-			<tilt>85.63624719106336</tilt>
-			<roll>-0.1278987608964841</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<longitude>-43.16378351433313</longitude>
+			<latitude>-22.95099562697269</latitude>
+			<altitude>222.2344483545635</altitude>
+			<heading>73.44087073110624</heading>
+			<tilt>84.27532233666203</tilt>
+			<roll>-0.1281679520194</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -36,11 +36,11 @@
 			<rightFov>27.5</rightFov>
 			<bottomFov>-25.24</bottomFov>
 			<topFov>25.24</topFov>
-			<near>23.0394</near>
+			<near>0.906752</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.16351706524809,-22.95003754783365,66.49170333613498</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.16378351433313,-22.95099562697269,222.2344483545635</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>

@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Folder>
 	<name>2021-12-15-Pitanga</name>
-	<open>1</open>
 	<PhotoOverlay>
 		<name>007_IMG_3456</name>
 		<Camera>
@@ -177,13 +176,13 @@
 	<PhotoOverlay>
 		<name>007_IMG_2486</name>
 		<Camera>
-			<longitude>-43.16374520623506</longitude>
-			<latitude>-22.95014681565303</latitude>
-			<altitude>55.7269825607089</altitude>
-			<heading>87.23695468320729</heading>
-			<tilt>87.38308779400089</tilt>
-			<roll>1.842308278285172</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<longitude>-43.16354804034151</longitude>
+			<latitude>-22.95111166532098</latitude>
+			<altitude>219.3538652976137</altitude>
+			<heading>78.34372838589192</heading>
+			<tilt>90.40669566178865</tilt>
+			<roll>1.828432309242193</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -202,31 +201,31 @@
 			</ListStyle>
 		</Style>
 		<Icon>
-			<href>D:/Tasks/Image classification/images/byap-50_15.0_007_IMG_2486.jpg</href>
+			<href>H:/Meu Drive/digikam/byap-50_15.0_007_IMG_2486.jpg</href>
 		</Icon>
 		<rotation>-7.18</rotation>
 		<ViewVolume>
-			<leftFov>-29.9993</leftFov>
-			<rightFov>29.9993</rightFov>
-			<bottomFov>-28.1</bottomFov>
-			<topFov>28.1</topFov>
-			<near>12.3383</near>
+			<leftFov>-24.5</leftFov>
+			<rightFov>24.5</rightFov>
+			<bottomFov>-22.855</bottomFov>
+			<topFov>22.855</topFov>
+			<near>0.105</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.16374520623506,-22.95014681565303,55.7269825607089</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.16354804034151,-22.95111166532098,219.3538652976137</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>007CX194-13</name>
 		<Camera>
-			<longitude>-43.16356894523418</longitude>
-			<latitude>-22.95006580874113</latitude>
-			<altitude>60.96837637860065</altitude>
-			<heading>89.53054154682791</heading>
-			<tilt>87.34265198190494</tilt>
-			<roll>1.842668185577954</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<longitude>-43.16376545847243</longitude>
+			<latitude>-22.9509961974294</latitude>
+			<altitude>222.40614288965</altitude>
+			<heading>81.86696548298771</heading>
+			<tilt>86.26890309803359</tilt>
+			<roll>0.2292546221806175</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -253,23 +252,23 @@
 			<rightFov>27.5</rightFov>
 			<bottomFov>-25.165</bottomFov>
 			<topFov>25.165</topFov>
-			<near>16.022</near>
+			<near>1.76999</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.16356894523418,-22.95006580874113,60.96837637860065</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.16376545847243,-22.9509961974294,222.40614288965</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
 		<name>007_IMG_3593</name>
 		<Camera>
-			<longitude>-43.16351706524809</longitude>
-			<latitude>-22.95003754783365</latitude>
-			<altitude>66.49170333613498</altitude>
-			<heading>80.80857225014508</heading>
-			<tilt>85.63624719106336</tilt>
-			<roll>-0.1278987608964841</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<longitude>-43.16378351433313</longitude>
+			<latitude>-22.95099562697269</latitude>
+			<altitude>222.2344483545635</altitude>
+			<heading>73.44087073110624</heading>
+			<tilt>84.27532233666203</tilt>
+			<roll>-0.1281679520194</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -296,11 +295,11 @@
 			<rightFov>27.5</rightFov>
 			<bottomFov>-25.24</bottomFov>
 			<topFov>25.24</topFov>
-			<near>23.0394</near>
+			<near>0.906752</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.16351706524809,-22.95003754783365,66.49170333613498</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.16378351433313,-22.95099562697269,222.2344483545635</coordinates>
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
@@ -387,6 +386,48 @@
 		<Point>
 			<altitudeMode>absolute</altitudeMode>
 			<coordinates>-43.17971973704088,-22.91302065250612,10.77593788783534</coordinates>
+		</Point>
+	</PhotoOverlay>
+	<PhotoOverlay>
+		<name>007_IMG_3725</name>
+		<Camera>
+			<longitude>-43.17971973699991</longitude>
+			<latitude>-22.91302065300001</latitude>
+			<altitude>10.77999999510817</altitude>
+			<heading>-129.6531516817969</heading>
+			<tilt>102.27</tilt>
+			<roll>2.05642284285932</roll>
+			<altitudeMode>absolute</altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>:/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>pictures/ctci-71_60.0_007_IMG_3725.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-25</leftFov>
+			<rightFov>25</rightFov>
+			<bottomFov>-20.695</bottomFov>
+			<topFov>20.695</topFov>
+			<near>0.511755</near>
+		</ViewVolume>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.17971973699991,-22.91302065300001,10.77999999510817</coordinates>
 		</Point>
 	</PhotoOverlay>
 </Folder>

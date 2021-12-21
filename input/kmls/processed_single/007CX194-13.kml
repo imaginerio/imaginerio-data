@@ -3,13 +3,13 @@
 <PhotoOverlay>
 		<name>007CX194-13</name>
 		<Camera>
-			<longitude>-43.16356894523418</longitude>
-			<latitude>-22.95006580874113</latitude>
-			<altitude>60.96837637860065</altitude>
-			<heading>89.53054154682791</heading>
-			<tilt>87.34265198190494</tilt>
-			<roll>1.842668185577954</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<longitude>-43.16376545847243</longitude>
+			<latitude>-22.9509961974294</latitude>
+			<altitude>222.40614288965</altitude>
+			<heading>81.86696548298771</heading>
+			<tilt>86.26890309803359</tilt>
+			<roll>0.2292546221806175</roll>
+			<altitudeMode>absolute</altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -36,11 +36,11 @@
 			<rightFov>27.5</rightFov>
 			<bottomFov>-25.165</bottomFov>
 			<topFov>25.165</topFov>
-			<near>16.022</near>
+			<near>1.76999</near>
 		</ViewVolume>
 		<Point>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			<coordinates>-43.16356894523418,-22.95006580874113,60.96837637860065</coordinates>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>-43.16376545847243,-22.9509961974294,222.40614288965</coordinates>
 		</Point>
 	</PhotoOverlay>
 </kml>
