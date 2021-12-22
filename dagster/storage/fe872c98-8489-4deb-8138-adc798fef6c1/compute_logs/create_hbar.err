@@ -1,0 +1,7 @@
+[32m2021-12-22 19:00:44[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - LOGS_CAPTURED - Started capturing logs for solid: create_hbar.
+[32m2021-12-22 19:00:45[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - STEP_START - Started execution of step "create_hbar".
+[32m2021-12-22 19:00:45[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - LOADED_INPUT - Loaded input "values" using input manager "io_manager", from output "result" of step "format_values_chart"
+[32m2021-12-22 19:00:45[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - STEP_INPUT - Got input "values" of type "[Any]". (Type check passed).
+[32m2021-12-22 19:00:45[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-12-22 19:00:46[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-12-22 19:00:46[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - create_hbar - STEP_SUCCESS - Finished execution of step "create_hbar" in 504ms.

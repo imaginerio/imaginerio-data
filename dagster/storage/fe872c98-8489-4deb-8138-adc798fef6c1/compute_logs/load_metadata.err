@@ -1,0 +1,17 @@
+[32m2021-12-22 19:00:40[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - LOGS_CAPTURED - Started capturing logs for solid: load_metadata.
+[32m2021-12-22 19:00:40[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - STEP_START - Started execution of step "load_metadata".
+[32m2021-12-22 19:00:41[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - LOADED_INPUT - Loaded input "camera" using input manager "camera_root"
+[32m2021-12-22 19:00:42[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - LOADED_INPUT - Loaded input "cumulus" using input manager "cumulus_root"
+[32m2021-12-22 19:00:42[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - LOADED_INPUT - Loaded input "metadata" using input manager "metadata_root"
+[32m2021-12-22 19:00:42[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - STEP_INPUT - Got input "camera" of type "main_dataframe_types". (Type check passed).
+[32m2021-12-22 19:00:43[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - STEP_INPUT - Got input "cumulus" of type "main_dataframe_types". (Type check passed).
+[32m2021-12-22 19:00:43[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - STEP_INPUT - Got input "metadata" of type "PandasDataFrame". (Type check passed).
+/mnt/d/situated-views-etl/solids/export.py:52: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  cumulus_df["datetime"] = pd.to_datetime(cumulus_df["datetime"])
+[32m2021-12-22 19:00:43[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - STEP_OUTPUT - Yielded output "result" of type "PandasDataFrame". (Type check passed).
+[32m2021-12-22 19:00:44[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-12-22 19:00:44[0m - dagster - [34mDEBUG[0m - export_pipeline - fe872c98-8489-4deb-8138-adc798fef6c1 - 2062 - load_metadata - STEP_SUCCESS - Finished execution of step "load_metadata" in 623ms.
