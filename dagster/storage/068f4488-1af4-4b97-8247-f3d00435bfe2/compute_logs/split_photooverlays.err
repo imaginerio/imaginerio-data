@@ -1,0 +1,9 @@
+[32m2021-12-23 19:01:25[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - LOGS_CAPTURED - Started capturing logs for solid: split_photooverlays.
+[32m2021-12-23 19:01:26[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - STEP_START - Started execution of step "split_photooverlays".
+[32m2021-12-23 19:01:26[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - LOADED_INPUT - Loaded input "kmls" using input manager "io_manager", from output "result" of step "get_list"
+[32m2021-12-23 19:01:26[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - STEP_INPUT - Got input "delete_original" of type "Any". (Type check passed).
+[32m2021-12-23 19:01:26[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - STEP_INPUT - Got input "kmls" of type "type_list_of_kmls". (Type check passed).
+KMLS:   0%|          | 0/2 [00:00<?, ?it/s]KMLS: 100%|██████████| 2/2 [00:00<00:00, 24.28it/s]
+[32m2021-12-23 19:01:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2021-12-23 19:01:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-12-23 19:01:27[0m - dagster - [34mDEBUG[0m - camera_pipeline - 068f4488-1af4-4b97-8247-f3d00435bfe2 - 464 - split_photooverlays - STEP_SUCCESS - Finished execution of step "split_photooverlays" in 621ms.
