@@ -1,0 +1,9 @@
+[32m2021-12-28 18:35:03[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - LOGS_CAPTURED - Started capturing logs for solid: rename_single.
+[32m2021-12-28 18:35:03[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - STEP_START - Started execution of step "rename_single".
+[32m2021-12-28 18:35:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - LOADED_INPUT - Loaded input "cumulus" using input manager "cumulus_root"
+[32m2021-12-28 18:35:05[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - LOADED_INPUT - Loaded input "ok" using input manager "io_manager", from output "result" of step "split_photooverlays"
+[32m2021-12-28 18:35:06[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - STEP_INPUT - Got input "cumulus" of type "main_dataframe_types". (Type check passed).
+[32m2021-12-28 18:35:07[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - STEP_INPUT - Got input "ok" of type "Any". (Type check passed).
+[32m2021-12-28 18:35:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - STEP_OUTPUT - Yielded output "result" of type "type_list_of_kmls". (Type check passed).
+[32m2021-12-28 18:35:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2021-12-28 18:35:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - 5f2af931-6e3c-4b0f-a697-d44706b16855 - 1801 - rename_single - STEP_SUCCESS - Finished execution of step "rename_single" in 2.56s.
