@@ -471,15 +471,15 @@
 		</Point>
 	</PhotoOverlay>
 	<PhotoOverlay>
-		<name>07_IMG_3908</name>
+		<name>007_IMG_3908</name>
 		<Camera>
-			<longitude>-43.17571914228073</longitude>
-			<latitude>-22.91853326126198</latitude>
-			<altitude>9.351867447405022</altitude>
-			<heading>-84.97480138632837</heading>
-			<tilt>101.5096835464401</tilt>
-			<roll>-9.223608576244199e-14</roll>
-			<altitudeMode>absolute</altitudeMode>
+			<longitude>-43.17571914199997</longitude>
+			<latitude>-22.918533261</latitude>
+			<altitude>2.439999999691155</altitude>
+			<heading>-84.97480138632845</heading>
+			<tilt>101.51</tilt>
+			<roll>-0</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 		</Camera>
 		<Style>
 			<IconStyle>
@@ -505,11 +505,11 @@
 			<rightFov>25</rightFov>
 			<bottomFov>-24.17</bottomFov>
 			<topFov>24.17</topFov>
-			<near>0.846942</near>
+			<near>0.84546</near>
 		</ViewVolume>
 		<Point>
-			<altitudeMode>absolute</altitudeMode>
-			<coordinates>-43.17571914228073,-22.91853326126198,9.351867447405022</coordinates>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.17571914199997,-22.918533261,2.439999999691155</coordinates>
 		</Point>
 	</PhotoOverlay>
 </Folder>
