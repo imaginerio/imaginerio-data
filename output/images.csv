@@ -1977,6 +1977,7 @@ Source ID,Media URL
 0072137cx010-05,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx010-05/full/max/0/default.jpg
 0072137cx010-07,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx010-07/full/max/0/default.jpg
 0072137cx012-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx012-01/full/max/0/default.jpg
+0072137cx012-02,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx012-02/full/max/0/default.jpg
 0072137cx012-03,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx012-03/full/max/0/default.jpg
 0072137cx012-04,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx012-04/full/max/0/default.jpg
 0072137cx012-05,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx012-05/full/max/0/default.jpg
@@ -2030,7 +2031,6 @@ Source ID,Media URL
 0072137cx021-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx021-01/full/max/0/default.jpg
 0072137cx021-03,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx021-03/full/max/0/default.jpg
 0072137cx021-08,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072137cx021-08/full/max/0/default.jpg
-0072430CX097-08,
 0072430cx001-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx001-01/full/max/0/default.jpg
 0072430cx001-02,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx001-02/full/max/0/default.jpg
 0072430cx001-03,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx001-03/full/max/0/default.jpg
@@ -2310,6 +2310,7 @@ Source ID,Media URL
 0072430cx097-05,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-05/full/max/0/default.jpg
 0072430cx097-06,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-06/full/max/0/default.jpg
 0072430cx097-07,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-07/full/max/0/default.jpg
+0072430cx097-08,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-08/full/max/0/default.jpg
 0072430cx097-09,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-09/full/max/0/default.jpg
 0072430cx097-10,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-10/full/max/0/default.jpg
 0072430cx097-11,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0072430cx097-11/full/max/0/default.jpg
@@ -2360,6 +2361,7 @@ Source ID,Media URL
 0073040cx034-02,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx034-02/full/max/0/default.jpg
 0073040cx034-03,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx034-03/full/max/0/default.jpg
 0073040cx034-05,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx034-05/full/max/0/default.jpg
+0073040cx034-06,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx034-06/full/max/0/default.jpg
 0073040cx034-08,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx034-08/full/max/0/default.jpg
 0073040cx035-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx035-01/full/max/0/default.jpg
 0073040cx035-03,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073040cx035-03/full/max/0/default.jpg
@@ -2374,11 +2376,11 @@ Source ID,Media URL
 0073555cx006a007-02,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073555cx006a007-02/full/max/0/default.jpg
 0073555cx006a007-05,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073555cx006a007-05/full/max/0/default.jpg
 0073555cx006a007-06,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0073555cx006a007-06/full/max/0/default.jpg
-0074050CX005-02,
 0074050cx003e004-02,
 0074050cx003e004-03,
 0074050cx003e004a-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0074050cx003e004a-01/full/max/0/default.jpg
 0074050cx005-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0074050cx005-01/full/max/0/default.jpg
+0074050cx005-02,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0074050cx005-02/full/max/0/default.jpg
 0074050cx005-03,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0074050cx005-03/full/max/0/default.jpg
 0074050cx006e007-01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0074050cx006e007-01/full/max/0/default.jpg
 0074050cx006e007-04,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/0074050cx006e007-04/full/max/0/default.jpg
@@ -2604,7 +2606,6 @@ Source ID,Media URL
 007A5P4F02-059,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-059/full/max/0/default.jpg
 007A5P4F02-060,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-060/full/max/0/default.jpg
 007A5P4F02-065,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-065/full/max/0/default.jpg
-007A5P4F02-066,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-066/full/max/0/default.jpg
 007A5P4F02-067,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-067/full/max/0/default.jpg
 007A5P4F02-068,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-068/full/max/0/default.jpg
 007A5P4F02-069,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A5P4F02-069/full/max/0/default.jpg
@@ -2703,10 +2704,10 @@ Source ID,Media URL
 007A6P4FP15-040,
 007A6P4FP15-041,
 007A6P4FP27-010,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A6P4FP27-010/full/max/0/default.jpg
+007A6P4FP27-033,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A6P4FP27-033/full/max/0/default.jpg
 007A6P4FP27-041,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A6P4FP27-041/full/max/0/default.jpg
 007A6P4FP27-046,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A6P4FP27-046/full/max/0/default.jpg
 007A6P4FP27-25,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007A6P4FP27-25/full/max/0/default.jpg
-007A6P4FP27-33,
 007A6P5FP02-010,
 007A6P5FP02-011,
 007AFA01,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/007AFA01/full/max/0/default.jpg
@@ -3477,7 +3478,7 @@ Source ID,Media URL
 013RJ017006,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/013RJ017006/full/max/0/default.jpg
 013RJ017008,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/013RJ017008/full/max/0/default.jpg
 013RJ017009,
-013RJ017010,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/013RJ017010/full/max/0/default.jpg
+013RJ017018,
 013RJ018006,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/013RJ018006/full/max/0/default.jpg
 014AAN00500,
 014AAN00501,https://imaginerio-images.s3.us-east-1.amazonaws.com/iiif/014AAN00501/full/max/0/default.jpg
