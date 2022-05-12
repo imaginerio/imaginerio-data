@@ -1,6 +1,0 @@
-[32m2021-12-10 13:12:21[0m - dagster - [34mDEBUG[0m - apis_pipeline - a2bce9e1-837a-4f3b-9efb-adf04a938013 - 18329 - query_portals - LOGS_CAPTURED - Started capturing logs for solid: query_portals.
-[32m2021-12-10 13:12:21[0m - dagster - [34mDEBUG[0m - apis_pipeline - a2bce9e1-837a-4f3b-9efb-adf04a938013 - 18329 - query_portals - STEP_START - Started execution of step "query_portals".
-Steps:   0%|          | 0/2 [00:00<?, ?it/s]Steps:  50%|█████     | 1/2 [01:16<01:16, 76.58s/it]Steps: 100%|██████████| 2/2 [02:17<00:00, 67.10s/it]Steps: 100%|██████████| 2/2 [02:17<00:00, 68.52s/it]
-[32m2021-12-10 13:14:39[0m - dagster - [34mDEBUG[0m - apis_pipeline - a2bce9e1-837a-4f3b-9efb-adf04a938013 - 18329 - query_portals - STEP_OUTPUT - Yielded output "result" of type "PandasDataFrame". (Type check passed).
-[32m2021-12-10 13:14:39[0m - dagster - [34mDEBUG[0m - apis_pipeline - a2bce9e1-837a-4f3b-9efb-adf04a938013 - 18329 - query_portals - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-12-10 13:14:39[0m - dagster - [34mDEBUG[0m - apis_pipeline - a2bce9e1-837a-4f3b-9efb-adf04a938013 - 18329 - query_portals - STEP_SUCCESS - Finished execution of step "query_portals" in 2m17s.

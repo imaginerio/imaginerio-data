@@ -1,7 +1,0 @@
-[32m2021-12-21 13:17:29[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - LOGS_CAPTURED - Started capturing logs for solid: rename_single.
-[32m2021-12-21 13:17:30[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - STEP_START - Started execution of step "rename_single".
-[32m2021-12-21 13:17:30[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - LOADED_INPUT - Loaded input "cumulus" using input manager "cumulus_root"
-[32m2021-12-21 13:17:30[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - STEP_INPUT - Got input "cumulus" of type "main_dataframe_types". (Type check passed).
-[32m2021-12-21 13:17:31[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - STEP_OUTPUT - Yielded output "result" of type "type_list_of_kmls". (Type check passed).
-[32m2021-12-21 13:17:31[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-12-21 13:17:31[0m - dagster - [34mDEBUG[0m - camera_pipeline - 9bee86b9-0545-412b-9412-3c1064e5c3a5 - 1782 - rename_single - STEP_SUCCESS - Finished execution of step "rename_single" in 717ms.

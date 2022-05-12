@@ -1,8 +1,0 @@
-[32m2021-12-27 20:33:06[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - LOGS_CAPTURED - Started capturing logs for solid: change_img_href.
-[32m2021-12-27 20:33:07[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - STEP_START - Started execution of step "change_img_href".
-[32m2021-12-27 20:33:08[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - LOADED_INPUT - Loaded input "list_kmls" using input manager "io_manager", from output "result" of step "rename_single"
-[32m2021-12-27 20:33:09[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - STEP_INPUT - Got input "list_kmls" of type "type_list_of_kmls". (Type check passed).
-KMLS:   0%|          | 0/48 [00:00<?, ?it/s]KMLS:  54%|█████▍    | 26/48 [00:00<00:00, 258.84it/s]KMLS: 100%|██████████| 48/48 [00:00<00:00, 258.18it/s]
-[32m2021-12-27 20:33:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - STEP_OUTPUT - Yielded output "result" of type "type_list_of_kmls". (Type check passed).
-[32m2021-12-27 20:33:10[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-12-27 20:33:11[0m - dagster - [34mDEBUG[0m - camera_pipeline - bd6f6eae-04a4-489b-8d9c-6da5bb40aa68 - 9565 - change_img_href - STEP_SUCCESS - Finished execution of step "change_img_href" in 1.54s.

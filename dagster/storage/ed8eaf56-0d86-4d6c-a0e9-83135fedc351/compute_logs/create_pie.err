@@ -1,7 +1,0 @@
-[32m2021-12-27 20:36:07[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - LOGS_CAPTURED - Started capturing logs for solid: create_pie.
-[32m2021-12-27 20:36:08[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - STEP_START - Started execution of step "create_pie".
-[32m2021-12-27 20:36:08[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - LOADED_INPUT - Loaded input "values" using input manager "io_manager", from output "result" of step "format_values_chart"
-[32m2021-12-27 20:36:09[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - STEP_INPUT - Got input "values" of type "[Any]". (Type check passed).
-[32m2021-12-27 20:36:10[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-[32m2021-12-27 20:36:11[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-[32m2021-12-27 20:36:12[0m - dagster - [34mDEBUG[0m - export_pipeline - ed8eaf56-0d86-4d6c-a0e9-83135fedc351 - 12432 - create_pie - STEP_SUCCESS - Finished execution of step "create_pie" in 2.01s.

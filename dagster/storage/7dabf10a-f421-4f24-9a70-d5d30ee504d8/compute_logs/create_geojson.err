@@ -1,11 +1,0 @@
-[32m2021-12-15 20:42:33[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - LOGS_CAPTURED - Started capturing logs for solid: create_geojson.
-[32m2021-12-15 20:42:33[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - STEP_START - Started execution of step "create_geojson".
-[32m2021-12-15 20:42:34[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - LOADED_INPUT - Loaded input "cumulus" using input manager "cumulus_root"
-[32m2021-12-15 20:42:34[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - LOADED_INPUT - Loaded input "new_features" using input manager "io_manager", from output "result" of step "create_feature"
-[32m2021-12-15 20:42:34[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - STEP_INPUT - Got input "cumulus" of type "main_dataframe_types". (Type check passed).
-[32m2021-12-15 20:42:35[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - STEP_INPUT - Got input "new_features" of type "type_list_of_features". (Type check passed).
-FEATURES:   0%|          | 0/23 [00:00<?, ?it/s]FEATURES: 100%|██████████| 23/23 [00:00<00:00, 2558.86it/s]
-[32m2021-12-15 20:42:37[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - STEP_OUTPUT - Yielded output "import_viewcones" of type "type_geojson". (Type check passed).
-[32m2021-12-15 20:42:39[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - ASSET_MATERIALIZATION -  IMPORT_VIEWCONES was saved <----------------------
-[32m2021-12-15 20:42:39[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - HANDLED_OUTPUT - Handled output "import_viewcones" using IO manager "geojson"
-[32m2021-12-15 20:42:39[0m - dagster - [34mDEBUG[0m - camera_pipeline - 7dabf10a-f421-4f24-9a70-d5d30ee504d8 - 7653 - create_geojson - STEP_SUCCESS - Finished execution of step "create_geojson" in 4.58s.
