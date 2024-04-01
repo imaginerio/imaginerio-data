@@ -1,0 +1,14 @@
+name: Notify Parent Repo on Push
+
+on: push
+
+jobs:
+  notify-parent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.PARENT_REPO_TOKEN }}
+          repository: imaginerio/imaginerio-etl
+          event-type: submodule-update
