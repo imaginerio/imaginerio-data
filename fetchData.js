@@ -7,7 +7,7 @@ const puppeteer = require('puppeteer');
     }
     try {
         // Launch the browser
-        const browser = await puppeteer.launch({ headless: false });
+        const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
         await page.setViewport({ width: 1280, height: 720 });
 
