@@ -32,10 +32,16 @@ jobs:
           git config --global user.name 'martimpassos'
           git config --global user.email 'martimpassos@users.noreply.github.com'
           git add -f input/jstor.xls
-          git commit -am "Update JSTOR data"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes detected, exiting."
+            exit 1
+          else
+            git commit -am "Update JSTOR data"
+            git push
+          fi
 
       - name: Repository Dispatch
+        if: success()
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PARENT_REPO_TOKEN }}
