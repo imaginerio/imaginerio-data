@@ -23,7 +23,7 @@ const path = require('path');
         const client = await page.target().createCDPSession()
         await client.send('Page.setDownloadBehavior', {
             behavior: 'allow',
-            downloadPath: './input',
+            downloadPath: './jstor_download',
         })
 
         // Navigate to the login page
@@ -60,9 +60,9 @@ const path = require('path');
 
         await delay(10000)
 
-        const file = fs.readdirSync('./input')[0];
+        const file = fs.readdirSync('./jstor_download')[0];
         console.log(file)
-        fs.rename($`./input/{file}`, './input/jstor.xls');
+        fs.rename(`./jstor_download/${file}`, './input/jstor.xls');
 
         await browser.close();
 
