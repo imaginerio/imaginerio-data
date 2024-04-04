@@ -29,9 +29,9 @@ jobs:
 
       - name: Commit and push new data
         run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-username@users.noreply.github.com'
-          git add -f jstor.xls vocabulary.xls
+          git config --global user.name 'martimpassos'
+          git config --global user.email 'martimpassos@users.noreply.github.com'
+          git add -f input/jstor.xls
           git commit -am "Update JSTOR data"
           git push
 
