@@ -19,4 +19,4 @@ The workflow will proceed to fetch JSTOR's data, import the viewcones into ArcGI
 
 ## Monitoring progress
 
-If you want to monitor the run progress in real time navigate to this [dashboard](https://github.com/imaginerio/imaginerio-etl/actions/workflows/iiif.yaml), select the latest run and click on the 'build-and-run' box to see the logs.
+If you want to monitor the run progress navigate to this [dashboard](https://github.com/imaginerio/imaginerio-etl/actions/workflows/iiif.yaml), select the latest run and click on the 'build-and-run' box to see the logs.
