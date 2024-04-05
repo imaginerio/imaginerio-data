@@ -33,16 +33,14 @@ jobs:
           git config --global user.email 'martimpassos@users.noreply.github.com'
           git add -f input/jstor.xls
           if git diff --staged --quiet; then
-            echo "No changes detected, exiting."
-            echo "DATA_HAS_CHANGES=false" >> $GITHUB_ENV
+            echo "No changes detected, skipping commit."
+            exit 0
           else
-            echo "DATA_HAS_CHANGES=true" >> $GITHUB_ENV
             git commit -am "Update JSTOR data"
             git push
           fi
 
       - name: Repository Dispatch
-        if: env.DATA_HAS_CHANGES != 'true'
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PARENT_REPO_TOKEN }}
