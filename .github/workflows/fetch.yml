@@ -1,11 +1,12 @@
 name: Fetch Data and Notify Parent
 
-on: 
+on:
   push:
+    paths:
+      - "input/*"
   workflow_dispatch:
 
 jobs:
-  
   notify-parent:
     runs-on: ubuntu-latest
     steps:
@@ -15,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm install
