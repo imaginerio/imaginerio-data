@@ -57,14 +57,14 @@ const path = require('path');
         const dropdownSelector = ".more-actions-panel .btn"
         await page.waitForSelector(dropdownSelector)
         await page.click(dropdownSelector)
-        
+
         // Wait for download
         await delay(10000)
 
         // Rename downloaded file
         const file = fs.readdirSync('./jstor_download')[0];
         console.log(file)
-        fs.renameSync(`./jstor_download/${file}`, './input/jstor.xls');
+        //fs.renameSync(`./jstor_download/${file}`, './input/jstor.xls');
 
         // End session
         await browser.close();

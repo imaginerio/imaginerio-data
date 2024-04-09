@@ -1,4 +1,4 @@
-name: Fetch Data and Notify Parent
+name: Fetch Data and Trigger Update
 
 on:
   push:
@@ -29,7 +29,9 @@ jobs:
           JSTOR_PROJECT: ${{ secrets.JSTOR_PROJECT }}
 
       - name: Compare data
-        run: python3 compare_data.py
+        run: |
+          pip install pandas
+          python3 compare_data.py
 
       - name: Commit and push new data
         run: |
