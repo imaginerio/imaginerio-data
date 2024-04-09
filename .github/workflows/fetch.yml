@@ -28,6 +28,9 @@ jobs:
           JSTOR_PASSWORD: ${{ secrets.JSTOR_PASSWORD }}
           JSTOR_PROJECT: ${{ secrets.JSTOR_PROJECT }}
 
+      - name: Compare data
+        run: python3 compare_data.py
+
       - name: Commit and push new data
         run: |
           git config --global user.name 'martimpassos'
