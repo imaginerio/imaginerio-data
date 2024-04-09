@@ -30,7 +30,7 @@ jobs:
 
       - name: Compare data
         run: |
-          pip install pandas
+          pip install pandas xlrd
           python3 compare_data.py
 
       - name: Commit and push new data
