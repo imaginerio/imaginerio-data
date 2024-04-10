@@ -1,0 +1,43 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom"><PhotoOverlay>
+		<name>31770340</name>
+		<Camera>
+			<longitude>-43.24742132099997</longitude>
+			<latitude>-22.85616378899999</latitude>
+			<altitude>89.68000000022391</altitude>
+			<heading>87.62643355702605</heading>
+			<tilt>85.42</tilt>
+			<roll>0.0003187689794441147</roll>
+			<gx:altitudeMode>absolute</gx:altitudeMode>
+		</Camera>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>/Users/lino/Library/Application Support/Google Earth/camera_mode.png</href>
+				</Icon>
+			</IconStyle>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open closed error fetching0 fetching1 fetching2</state>
+					<href>http://maps.google.com/mapfiles/kml/shapes/camera-lv.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Icon>
+			<href>https://iiif.imaginerio.org/iiif/31770340/full/max/0/default.jpg</href>
+		</Icon>
+		<ViewVolume>
+			<leftFov>-21.095</leftFov>
+			<rightFov>21.095</rightFov>
+			<bottomFov>-13.92</bottomFov>
+			<topFov>13.92</topFov>
+			<near>0.58212</near>
+		</ViewVolume>
+		<Point>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			<coordinates>-43.24742132099997,-22.85616378899999,1.680000000223912</coordinates>
+		</Point>
+	</PhotoOverlay>
+	</kml>
