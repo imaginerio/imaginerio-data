@@ -2,7 +2,7 @@
 There are two ways of updating imagineRio's contents: 
 
 ## Scenario 1: Updating metadata only
-If there's only changes in image metadata, or new viewcones were added by other methods and you need to create manifests for these items, simply navigate to [this page](https://github.com/imaginerio/imaginerio-data/actions/workflows/fetch.yml) and click on "Run workflow". Please note that you must be logged in into an account with the relevant permissions for this to work.
+If there's only changes in image metadata, or new viewcones were added by other methods and you need to create manifests for these items, simply navigate to [this page](https://github.com/imaginerio/imaginerio-etl/actions/workflows/update.yaml) and click on "Run workflow". Please note that you must be logged in into an account with the relevant permissions for this to work.
 
 That's it! The workflow will automatically pull data from JSTOR and trigger the manifest creation/update.
 
@@ -19,4 +19,4 @@ The workflow will proceed to fetch JSTOR's data, import the viewcones into ArcGI
 
 ## Monitoring progress
 
-If you want to monitor the run progress navigate to this [dashboard](https://github.com/imaginerio/imaginerio-etl/actions/workflows/iiif.yaml), select the latest run and click on the 'build-and-run' box to see the logs.
+If you want to monitor the run progress navigate to this [dashboard](https://github.com/imaginerio/imaginerio-etl/actions/workflows/update.yaml), select the latest run and click on the 'build-and-run' box to see the logs.
