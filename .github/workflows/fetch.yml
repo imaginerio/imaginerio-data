@@ -1,4 +1,4 @@
-name: Fetch Data and Trigger Update
+name: Trigger ETL
 
 on:
   push:
