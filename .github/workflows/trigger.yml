@@ -3,7 +3,7 @@ name: Trigger ETL
 on:
   push:
     paths:
-      - "input/*"
+      - "input/**"
   workflow_dispatch:
 
 jobs:
